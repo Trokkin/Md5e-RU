@@ -6,5 +6,4 @@
 За основу берутся переводы от PHantom.
 
 ## Использование
-Скопируйте ссылку на [book-PHB-RU.json](https://raw.githubusercontent.com/Trokkin/5eT-RU/master/book-PHB-RU.json) в Utilities > Homebrew Manager > Load from URL.
-Ссылка, ещё раз: `https://raw.githubusercontent.com/Trokkin/5eT-RU/master/book-PHB-RU.json`
+Формат совместим с 5eTools: для импорта туда, скопируйте ссылку на [book-PHB-RU.json](https://raw.githubusercontent.com/Trokkin/5eT-RU/master/book-PHB-RU.json) в Utilities > Homebrew Manager > Load from URL. (ссылка: `https://raw.githubusercontent.com/Trokkin/5eT-RU/master/book-PHB-RU.json`)
