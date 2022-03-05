@@ -6,7 +6,7 @@
             "full": "Книга Игрока",
             "authors": [
                 "Wizards RPG Team",
-                "PHantom"
+                "PHantom Studio"
             ],
             "convertedBy": [
                 "@trokkin"
@@ -17,19 +17,21 @@
             "targetSchema": "1.2"
         }],
         "dateAdded": 1620477826,
-        "dateLastModified": 1620477826,
-        "optionalFeatureTypes": {
-            "BGT:S": "Background Talent; Seafarer"
-        }
+        "dateLastModified": 1620477826
     },
+    "blacklist": [{
+        "displayName": "*",
+        "hash": "*",
+        "category": "*",
+        "source": "PHB"
+    }],
     "book": [{
         "name": "Книга Игрока",
         "source": "PHB-RU",
         "group": "core",
-        "id": "PHB-RU",
-        "published": "2016-04-01",
         "coverUrl": "img/covers/PHB.png",
-        "author": "Wizards RPG Team, PHantom",
+        "published": "2014-08-19",
+        "author": "Wizards RPG Team, PHantom Studio",
         "contents": [{
                 "name": "Введение",
                 "headers": [
