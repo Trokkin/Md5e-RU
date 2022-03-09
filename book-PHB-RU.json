@@ -1,5 +1,6 @@
 {
     "_meta": {
+        "nextId": "219",
         "sources": [{
             "json": "PHB-RU",
             "abbreviation": "PHB RUS",
@@ -27,6 +28,7 @@
     }],
     "book": [{
         "name": "Книга Игрока",
+        "id": "PHB-RU",
         "source": "PHB-RU",
         "group": "core",
         "coverUrl": "img/covers/PHB.png",
@@ -219,10 +221,10 @@
                     },
                     {
                         "type": "section",
-                        "name": "Using this Book",
+                        "name": "Использование этой книги",
                         "page": 6,
                         "entries": [
-                            "The Player's Handbook is divided into three parts.",
+                            "{@i Книга игрока} делится на три части.",
                             "{@b Часть 1} про создание персонажа, содержит правила и руководства, необходимые для создания персонажа, которого вы будете отыгрывать. Она содержит информацию о различных расах, классах, предысториях, снаряжении и других настраиваемых параметрах, которые вы можете выбрать. Многие правила 1 части основаны на материале 2 и 3 части. Если вы столкнулись в части 1 с игровым термином, который не понимаете, обратитесь к алфавитному указателю в конце книги.",
                             "{@b Часть 2} излагает правила о том, как играть в D&D за рамками основ, описанных в этом введении. Эта часть описывает виды бросков костей, совершаемых вами, чтобы определить успех или провал задач, которые пытается выполнить ваш персонаж, и описывает три обширные категории действий в игре: исследование, взаимодействие и сражение.",
                             "{@b Часть 3} полностью посвящена магии. Она охватывает природу магии в мирах D&D, правила сотворения заклинаний и огромный набор заклинаний, доступных для персонажей (и чудовищ), использующих магию."
@@ -1003,25 +1005,26 @@
             },
             {
                 "type": "section",
-                "name": "Races",
+                "name": "Расы",
                 "page": 17,
                 "entries": [
-                    "A visit to one of the great cities in the worlds of Dungeons & Dragons\u2014Waterdeep, the Free City of Greyhawk, or even uncanny Sigil, the City of Doors overwhelms the senses. Voices chatter in countless different languages. The smells of cooking in dozens of different cuisines mingle with the odors of crowded streets and poor sanitation. Buildings in myriad architectural styles display the diverse origins of their inhabitants.",
-                    "And the people themselves\u2014people of varying size, shape, and color, dressed in a dazzling spectrum of styles and hues\u2014represent many different races, from diminutive halflings and stout dwarves to majestically beautiful elves, mingling among a variety of human ethnicities.",
-                    "Scattered among the members of these more common races are the true exotics: a hulking dragonborn here, pushing his way through the crowd, and a sly tiefling there, lurking in the shadows with mischief in her eyes. A group of gnomes laughs as one of them activates a clever wooden toy that moves of its own accord. Half-elves and half-orcs live and work alongside humans, without fully belonging to the races of either of their parents. And there, well out of the sunlight, is a lone drow\u2014a fugitive from the subterranean expanse of the Underdark, trying to make his way in a world that fears his kind. The Player's Handbook has more information about these unusual races.",
+                    "Посещение одного из величайших городов среди миров D&D: Глубоководья, Свободного Городамира Серого Ястреба, или даже сверхъестественного Сигила, Города Дверей, переполняет чувствами. Звучит речь на неисчислимом количестве различных языков. Запахи готовящейся еды на дюжинах различных кухонь смешиваются с запахами переполненных улиц и плохой санитарии. Строения бесчисленных архитектурных стилей отражают различное происхождение своих жителей.",
+                    "А сами жители — существа разного размера, формы и цвета, в одеждах разнообразных ослепительных стилей и оттенков — представители множества различных рас: от миниатюрных полуросликов и крепких дварфов, до величественнокрасивых эльфов, живущих среди людей различных этносов.",
+                    "Есть и более экзотические расы, рассеянные среди более распространённых: здесь и массивные драконорождённые, прокладывающие путь через толпу, и пронырливые тифлинги, скрывающиеся в тени с недобрым озорством в глазах. Группа гномов смеётся над тем, как один из них запускает сложную деревянную игрушку, движущуюся саму по себе. Полуэльфы и полуорки живут и работают рядом с людьми, не принадлежа полностью ни к одной из рас своих родителей. И здесь же прячется от солнца одинокий дроу, беглец из подземных просторов Подземья, пытающийся выжить в мире, который боится его племени.",
                     {
                         "type": "entries",
-                        "name": "Uncommon Races",
+                        "name": "Необычные расы",
                         "page": 33,
                         "entries": [
-                            "The dragonborn and the rest of the races in this list are uncommon. They don't exist in every world of D&D, and even where they are found, they are less widespread than dwarves, elves, halflings, and humans. In the cosmopolitan cities of the D&D multiverse, most people hardly look twice at members of even the most exotic races. But the small towns and villages that dot the countryside are different. The common folk aren't accustomed to seeing members of these races, and they react accordingly.",
+                            "Драконорождённые и все последующие расы из этого раздела являются необычными. Они существуют не во всех мирах D&D, и даже там, где они присутствуют, они распространены гораздо меньше, чем дварфы, люди, полурослики и эльфы.",
+                            "В многонациональных городах мультивселенной D&D большинство обитателей вряд ли заинтересуется представителем даже самой экзотической расы, Но в маленьких городках и деревнях всё по-другому. Обычные люди не привыкли видеть представителей таких рас, и будут вести себя соответственно.",
                             {
                                 "type": "entries",
                                 "entries": [{
                                     "type": "entries",
-                                    "name": "Dragonborn",
+                                    "name": "Драконорождённые",
                                     "entries": [
-                                        "It's easy to assume that a dragonborn is a monster, especially if his or her scales betray a chromatic heritage. Unless the dragonborn starts breathing fire and causing destruction, though, people are likely to respond with caution rather than outright fear."
+                                        "Легко предположить, что драконорождённые это чудовища, особенно если цвет их чешуи выдаёт их родство с цветными драконами. Однако пока драконорождённый не начинает дышать огнём и сеять разрушение, большинство людей скорее проявят интерес, чем открытый страх."
                                     ],
                                     "id": "02e"
                                 }],
@@ -1031,9 +1034,9 @@
                                 "type": "entries",
                                 "entries": [{
                                     "type": "entries",
-                                    "name": "Gnome",
+                                    "name": "Гномы",
                                     "entries": [
-                                        "Gnomes don't look like a threat and can quickly disarm suspicion with good humor. The common folk are often curious about gnomes, likely never having seen one before, but they are rarely hostile or fearful."
+                                        "Гномы не выглядят опасными, и могут хорошей шуткой быстро разрушить подозрения. Обычные люди относятся к ним с любопытством, если никогда их прежде не видели, и вряд ли будут враждебны к ним."
                                     ],
                                     "id": "030"
                                 }],
@@ -1043,9 +1046,9 @@
                                 "type": "entries",
                                 "entries": [{
                                     "type": "entries",
-                                    "name": "Half-Elf",
+                                    "name": "Полуэльфы",
                                     "entries": [
-                                        "Although many people have never seen a half-elf, virtually everyone knows they exist. A half-elf stranger's arrival is followed by gossip behind the half-elf's back and stolen glances across the common room, rather than any confrontation or open curiosity."
+                                        "Несмотря на то, что большинство людей никогда не видели полуэльфа, каждый знает, что они существуют. Появление незнакомого полуэльфа скорее сопровождается перешёптыванием и бросаемыми исподтишка взглядами, чем открытой заинтересованностью или враждебностью."
                                     ],
                                     "id": "032"
                                 }],
@@ -1055,9 +1058,9 @@
                                 "type": "entries",
                                 "entries": [{
                                     "type": "entries",
-                                    "name": "Half-Orc",
+                                    "name": "Полуорки",
                                     "entries": [
-                                        "It's usually safe to assume that a half-orc is belligerent and quick to anger, so people watch themselves around an unfamiliar half-orc. Shopkeepers might surreptitiously hide valuable or fragile goods when a half-orc comes in, and people slowly clear out of a tavern, assuming a fight will break out soon."
+                                        "Принято считать, что полуорки агрессивны и легко впадают в ярость, так что люди ведут себя осторожно в присутствии незнакомого полуорка. Торговцы могут тайком прятать наиболее ценные или хрупкие товары при появлении полуорка, и люди потихоньку покидают таверны, опасаясь возможной драки."
                                     ],
                                     "id": "034"
                                 }],
@@ -1067,9 +1070,9 @@
                                 "type": "entries",
                                 "entries": [{
                                     "type": "entries",
-                                    "name": "Tiefling",
+                                    "name": "Тифлинги",
                                     "entries": [
-                                        "Half-orcs are greeted with a practical caution, but tieflings are the subject of supernatural fear. The evil of their heritage is plainly visible in their features, and as far as most people are concerned, a tiefling could very well be a devil straight from the Nine Hells. People might make warding signs as a tiefling approaches, cross the street to avoid passing near, or bar shop doors before a tiefling can enter."
+                                        "Если полуорков встречают с обоснованными опасениями, то тифлинги вызывают сверхъестественный страх. Зло оставило такой ясный отпечаток на их внешности, что многие полагают, будто тифлинги могут оказаться настоящими чертями прямо из Девяти Преисподних. Люди делают ограждающие от зла знаки при их приближении, переходят на другую сторону улицы или запирают двери при их приближении."
                                     ],
                                     "id": "036"
                                 }],
@@ -1080,73 +1083,81 @@
                     },
                     {
                         "type": "section",
-                        "name": "Choosing a Race",
+                        "name": "Выбор расы",
                         "page": 17,
                         "entries": [
-                            "Humans are the most common people in the worlds of D&D, but they live and work alongside dwarves, elves, halflings, and countless other fantastic species. Your character belongs to one of these peoples.",
-                            "Not every intelligent race of the multiverse is appropriate for a player-controlled adventurer. Dwarves, elves, halflings, and humans are the most common races to produce the sort of adventurers who make up typical parties. Other races and subraces are less common as adventurers.",
-                            "Your choice of race affects many different aspects of your character. It establishes fundamental qualities that exist throughout your character's adventuring career.",
-                            "When making this decision, keep in mind the kind of character you want to play. For example, a halfling could be a good choice for a sneaky rogue, a dwarf makes a tough warrior, and an elf can be a master of arcane magic.",
-                            "Your character race not only affects your ability scores and traits but also provides the cues for building your character's story. Each race's description in this chapter includes information to help you roleplay a character of that race, including personality, physical appearance, features of society, and racial alignment tendencies.",
-                            "These details are suggestions to help you think about your character; adventurers can deviate widely from the norm for their race. It's worthwhile to consider why your character is different, as a helpful way to think about your character's background and personality.",
+                            "Люди — наиболее распространённый народ в D&D, но они проживают бок обок с дварфами, эльфами, полуросликами и другими бесчисленными фантастическими расами. Ваш персонаж принадлежит к одному из этих народов.",
+                            "Не всякая разумная раса подходит для персонажа игрока. Стандартные группы искателей приключений в основном состоят из дварфов, эльфов, полуросликов и людей. Реже встречаются драконорождённые, полуэльфы, полуорки, гномы и тифлинги. Дроу, разновидность эльфов, тоже встречаются нечасто.",
+                            "Выбор расы влияет на разные аспекты вашего персонажа. Он определяет основные качества, которые будут у вашего персонажа на протяжении всей его карьеры. Прежде чем выбрать расу, подумайте, каким персонажем вы бы хотели играть.",
+                            "Например, полурослик — отличный выбор для скрытного плута, из дварфов хорошо получаются стойкие воины, а эльф может быть знатоком магии.",
+                            "Раса персонажа даёт не только увеличение характеристик и расовые особенности, но также предоставляет зацепки для создания истории персонажа. В описании каждой расы в этой главе содержится информация, которая поможет отыгрывать персонажа этой расы. Она включает в себя общие сведения о характере, внешнем виде, общественном укладе и преимущественном мировоззрении.",
+                            "Эти подробности — отправная точка для размышлений о вашем персонаже, искатели приключений могут существенно отличаться от среднего представителя своей расы. Для создания предыстории и личности персонажа стоит подумать, почему он не такой, как все.",
                             {
                                 "type": "entries",
-                                "name": "Racial Traits",
+                                "name": "Расовые особенности",
                                 "page": 17,
                                 "entries": [
-                                    "The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.",
+                                    "В описание каждой расы входят расовые особенности, общие для всех её представителей. Следующие разделы встречаются в описании большинства рас:",
                                     {
                                         "type": "entries",
-                                        "name": "Ability Score Increase",
+                                        "name": "Увеличение характеристик",
                                         "page": 17,
                                         "entries": [
-                                            "Every race increases one or more of a character's ability scores."
+                                            "Каждая раса увеличивает одно или несколько значений характеристик."
                                         ],
                                         "id": "039"
                                     },
                                     {
                                         "type": "entries",
-                                        "name": "Age",
+                                        "name": "Возраст",
                                         "page": 17,
                                         "entries": [
-                                            "The age entry notes the age when a member of the race is considered an adult, as well as the race's expected lifespan. This information can help you decide how old your character is at the start of the game. You can choose any age for your character, which could provide an explanation for some of your ability scores. For example, if you play a young or very old character, your age could explain a particularly low Strength or Constitution score, while advanced age could account for a high Intelligence or Wisdom."
+                                            "В этом разделе указывается, в каком возрасте представитель той или иной расы считается взрослым, а также примерная продолжительность его жизни. Вы можете начать игру персонажем любого возраста, и это может послужить обоснованием некоторых значений его характеристик. Например, при игре очень молодым или старым персонажем, возраст может быть причиной низких значений Силы или Телосложения, в то время как зрелый возраст хорошо объясняет высокие показатели Мудрости и Интеллекта."
                                         ],
                                         "id": "03a"
                                     },
                                     {
                                         "type": "entries",
-                                        "name": "Size",
+                                        "name": "Мировоззрение",
                                         "page": 17,
                                         "entries": [
-                                            "Characters of most races are Medium, a size category including creatures that are roughly 4 to 8 feet tall.",
-                                            "Members of a few races are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons, as explained in chapter 5."
+                                            "Большинство рас имеют склонность к определённому мировоззрению, что и описано в данном разделе. Это никак не ограничивает вашего персонажа, но осознание, почему вопреки строго законопослушному обществу ваш дварф вырос хаотичным, поможет вам лучше вжиться в роль."
+                                        ],
+                                        "id": "218"
+                                    },
+                                    {
+                                        "type": "entries",
+                                        "name": "Размер",
+                                        "page": 17,
+                                        "entries": [
+                                            "Персонажи большинства рас считаются Средними. В эту категорию попадают существа ростом от 4 до 8 футов (от 122 до 244 сантиметров). Представители некоторых рас считаются Маленькими (от 2 до 4 футов [от 66 до 122 сантиметров] ростом), и из-за этого некоторые правила игры действуют на них по-другому. Самое важное отличие в размерах заключается в том, что существа Маленького размера испытывают трудности в сражении тяжёлым оружием, подробнее об этом написано в главе 6."
                                         ],
                                         "id": "03c"
                                     },
                                     {
                                         "type": "entries",
-                                        "name": "Speed",
+                                        "name": "Скорость",
                                         "page": 17,
                                         "entries": [
-                                            "Your speed determines how far you can move when traveling (chapter 8) and fighting (chapter 9)."
+                                            "Скорость определяет, как далеко сможет продвинуться персонаж во время путешествия (смотрите главу 8) и сражения (смотрите главу 9)."
                                         ],
                                         "id": "03d"
                                     },
                                     {
                                         "type": "entries",
-                                        "name": "Languages",
+                                        "name": "Языки",
                                         "page": 17,
                                         "entries": [
-                                            "By virtue of your race, your character can speak, read, and write certain languages. Chapter 4 lists the most common languages of the D&D multiverse."
+                                            "В зависимости от расы, ваш персонаж может говорить, читать и писать на определённых языках. Список языков, наиболее распространённых в мультивселеной D&D, приведён в главе 4."
                                         ],
                                         "id": "03e"
                                     },
                                     {
                                         "type": "entries",
-                                        "name": "Subraces",
+                                        "name": "Разновидности",
                                         "page": 17,
                                         "entries": [
-                                            "Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world. In the Dragonlance campaign setting, for example, mountain dwarves and hill dwarves live together as different clans of the same people, but in the Forgotten Realms, they live far apart in separate kingdoms and call themselves shield dwarves and gold dwarves, respectively."
+                                            "У некоторых рас есть разновидности. Их представители сочетают в себе качества основной расы с особенностями, присущими только этой разновидности. Отношения между представителями разных разновидностей одной расы могут существенно различаться в зависимости от расы и игрового мира. В Саге о Копье, например, горные и холмовые дварфы живут вместе и представляют собой два разных клана одного народа. В то же время в Забытых Королевствах они живут в разных странах и называются щитовыми и золотыми дварфами, соответственно."
                                         ],
                                         "id": "03f"
                                     }
@@ -1162,15 +1173,15 @@
                             "type": "list",
                             "columns": 3,
                             "items": [
-                                "{@race Dragonborn}",
-                                "{@race Dwarf}",
-                                "{@race Elf}",
-                                "{@race Gnome}",
-                                "{@race Half-Elf}",
-                                "{@race Half-Orc}",
-                                "{@race Halfling}",
-                                "{@race Human}",
-                                "{@race Tiefling}"
+                                "{@race Дварф}",
+                                "{@race Эльф}",
+                                "{@race Полурослик}",
+                                "{@race Человек}",
+                                "{@race Драконорожденный}",
+                                "{@race Гном}",
+                                "{@race Полуэльф}",
+                                "{@race Полуорк}",
+                                "{@race Тифлинг}"
                             ]
                         }],
                         "id": "217"
@@ -1180,24 +1191,23 @@
             },
             {
                 "type": "section",
-                "name": "Classes",
+                "name": "Классы",
                 "page": 45,
                 "entries": [
-                    "Adventurers are extraordinary people, driven by a thirst for excitement into a life that others would never dare lead. They are heroes, compelled to explore the dark places of the world and take on the challenges that lesser women and men can't stand against.",
-                    "Class is the primary definition of what your character can do. It's more than a profession; it's your character's calling. Class shapes the way you think about the world and interact with it and your relationship with other people and powers in the multiverse. A fighter, for example, might view the world in pragmatic terms of strategy and maneuvering, and see herself as just a pawn in a much larger game. A cleric, by contrast, might see himself as a willing servant in a god's unfolding plan or a conflict brewing among various deities. While the fighter has contacts in a mercenary company or army, the cleric might know a number of priests, paladins, and devotees who share his faith.",
-                    "Your class gives you a variety of special features, such as a fighter's mastery of weapons and armor, and a wizard's spells. At low levels, your class gives you only two or three features, but as you advance in level you gain more and your existing features often improve.",
-                    "Each class entry in this chapter includes a table summarizing the benefits you gain at every level, and a detailed explanation of each one.",
-                    "Adventurers sometimes advance in more than one class. A rogue might switch direction in life and dabble in the cleric class while continuing to advance as a rogue. Elves are known to combine martial mastery with magical training and advance as fighters and wizards simultaneously. Optional rules for combining classes in this way, called multiclassing, can be found in the Chapter 6.",
-                    "Twelve classes\u2014listed in the Classes table\u2014are found in almost every D&D world and define most typical adventurers.",
+                    "Искатели приключений — необычные существа, движимые жаждой жизненных потрясений, на которые другие никогда бы не осмелились. Это герои, вынужденные исследовать тёмные уголки мира и принимать испытания, которым большинство женщин и мужчин не смогли бы противостоять.",
+                    "Класс является основным мерилом способностей вашего персонажа. Это больше чем профессия, это призвание вашего персонажа. Класс формирует ваше представление о мире и взаимодействие с ним, а также ваше отношение к другим существам и силам мультивселенной. Воин, например, может смотреть на мир прагматично, с точки зрения стратегии и манёвров, и видеть себя всего лишь пешкой в большой игре. Жрец напротив, может видеть себя в качестве усердного служителя разворачивающегося грандиозного плана божества, или назревающего конфликта между различными богами. У воина есть связи в организациях наёмников или войсках, а жрец может знать множество священников, паладинов и последователей, разделяющих его веру.",
+                    "Ваш класс даёт вам целый ряд особых умений, таких как мастерство воина во владении оружием и доспехами, и заклинания волшебника. На низких уровнях ваш класс даёт вам только два или три умения, но при получении новых уровней вы получите новые, и ваши существующие умения улучшатся. Описание каждого класса в этой главе включает в себя таблицу с кратким перечнем всех преимуществ, которые вы получаете на каждом уровне, и подробное описание каждого умения.",
+                    "Искатели приключений иногда развиваются сразу в нескольких классах. Плут может поменять жизненный путь и дать присягу паладина. Варвар может обнаружить скрытые магические способности и практиковаться в классе чародей, продолжая совершенствоваться как варвар. Эльфы известны тем, что сочетают военное мастерство с магической подготовкой и развиваются как воины и волшебники одновременно. Опциональные правила такого комбинирования классов называются мультиклассированием, и описаны в главе 6.",
+                    "Двенадцать классов, перечисленные в таблице «Классы», встречаются почти во всех мирах D&D и определяют наиболее типичных искателей приключений.",
                     {
                         "type": "table",
                         "colLabels": [
-                            "Class",
-                            "Description",
-                            "Hit Die",
-                            "Primary Ability",
-                            "Saving Throw Proficiencies",
-                            "Armor and Weapon Proficiencies"
+                            "Класс",
+                            "Описание",
+                            "Кость Хитов",
+                            "Основная характеристика",
+                            "Владение спасбросками",
+                            "Владение доспехами и оружием"
                         ],
                         "colStyles": [
                             "col-1",
@@ -1209,100 +1219,100 @@
                         ],
                         "rows": [
                             [
-                                "{@class Barbarian}",
-                                "A fierce warrior of primitive background who can enter a battle rage",
-                                "d12",
-                                "Strength",
-                                "Strength & Constitution",
-                                "Light and medium armor, shields, simple and martial weapons"
+                                "{@class Воин}",
+                                "Мастер сражения, опытный во владении различным оружием и доспехами",
+                                "к10",
+                                "Сила или Ловкость",
+                                "Сила и Телосложение",
+                                "Все доспехи, щиты, простое и воинское оружие"
                             ],
                             [
-                                "{@class Bard}",
-                                "An inspiring magician whose power echoes the music of creation",
-                                "d8",
-                                "Charisma",
-                                "Dexterity & Charisma",
-                                "Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords"
+                                "{@class Варвар}",
+                                "Свирепый воин, способный впадать в боевую ярость",
+                                "к12",
+                                "Сила",
+                                "Сила и Телосложение",
+                                "Лёгкие и средние доспехи, щиты, простое и воинское оружие"
                             ],
                             [
-                                "{@class Cleric}",
-                                "A priestly champion who wields divine magic in service of a higher power",
-                                "d8",
-                                "Wisdom",
-                                "Wisdom & Charisma",
-                                "Light and medium armor, shields, simple weapons"
+                                "{@class Плут}",
+                                "Мошенник, который использует хитрость и обман, чтобы одолеть препятствия и противников",
+                                "к8",
+                                "Ловкость",
+                                "Ловкость и Интеллект",
+                                "Лёгкие доспехи, простое оружие, длинные мечи, короткие мечи, рапиры, ручные арбалеты"
                             ],
                             [
-                                "{@class Druid}",
-                                "A priest of the Old Faith, wielding the powers of nature\u2014moonlight and plant growth, fire and lightning\u2014and adapting animal forms",
-                                "d8",
-                                "Wisdom",
-                                "Intelligence & Wisdom",
-                                "Light and medium armor (nonmetal), shields (nonmetal), clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears"
+                                "{@class Монах}",
+                                "Мастер боевых искусств, использующий мощь тела в поисках физического и духовного совершенства",
+                                "к8",
+                                "Ловкость и Мудрость",
+                                "Сила и Ловкость",
+                                "Простое оружие, короткие мечи"
                             ],
                             [
-                                "{@class Fighter}",
-                                "A master of martial combat, skilled with a variety of weapons and armor",
-                                "d10",
-                                "Strength or Dexterity",
-                                "Strength & Constitution",
-                                "All armor, shields, simple and martial weapons"
+                                "{@class Паладин}",
+                                "Святой воин, связанный духовным обетом",
+                                "к10",
+                                "Сила и Харизма",
+                                "Мудрость и Харизма",
+                                "Все доспехи, щиты, простое и воинское оружие"
                             ],
                             [
-                                "{@class Monk}",
-                                "A master of martial arts harnessing the power of the body in pursuit of physical and spiritual perfection",
-                                "d8",
-                                "Dexterity & Wisdom",
-                                "Strength & Wisdom",
-                                "Simple weapons, shortswords"
+                                "{@class Следопыт}",
+                                "Воитель, использующий боевое искусство и магию природы для борьбы с угрозами на окраинах цивилизации",
+                                "к10",
+                                "Ловкость и Мудрость",
+                                "Сила и Ловкость",
+                                "Лёгкие и средние доспехи, щиты, простое и воинское оружие"
                             ],
                             [
-                                "{@class Paladin}",
-                                "A holy warrior bound to a sacred oath",
-                                "d10",
-                                "Strength & Charisma",
-                                "Wisdom & Charisma",
-                                "All armor, shields, simple and martial weapons"
+                                "{@class Волшебник}",
+                                "Учёный заклинатель, способный манипулировать структурой реальности",
+                                "к6",
+                                "Интеллект",
+                                "Интеллект и Мудрость",
+                                "Боевые посохи, дротики, кинжалы, лёгкие арбалеты, пращи"
                             ],
                             [
-                                "{@class Ranger}",
-                                "A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization",
-                                "d10",
-                                "Dexterity & Wisdom",
-                                "Strength & Dexterity",
-                                "Light and medium armor, shields, simple and martial weapons"
+                                "{@class Жрец}",
+                                "Священнослужитель-заступник, владеющий божественной магией и состоящий на службе высших сил",
+                                "к8",
+                                "Мудрость",
+                                "Мудрость и Харизма",
+                                "Лёгкие и средние доспехи, щиты, простое оружие"
                             ],
                             [
-                                "{@class Rogue}",
-                                "A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
-                                "d8",
-                                "Dexterity",
-                                "Dexterity & Intelligence",
-                                "Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords"
+                                "{@class Друид}",
+                                "Проповедник Старой Веры, владеющий силами природы — лунным светом и ростом растений, огнём и молнией, и принимающий облик животных",
+                                "к8",
+                                "Мудрость",
+                                "Интеллект и Мудрость",
+                                "Лёгкие и средние доспехи (неметаллические), щиты (неметаллические), боевые посохи, булавы, дротики, дубинки, кинжалы, копья, метательные копья, пращи, серпы, скимитары"
                             ],
                             [
-                                "{@class Sorcerer}",
-                                "A spellcaster who draws on inherent magic from a gift or bloodline",
-                                "d6",
-                                "Charisma",
-                                "Constitution & Charisma",
-                                "Daggers, darts, slings, quarterstaffs, light crossbows"
+                                "{@class Чародей}",
+                                "Заклинатель, черпающий магию в себе, получив её в дар или как наследие",
+                                "к6",
+                                "Харизма",
+                                "Телосложение и Харизма",
+                                "Боевые посохи, дротики, кинжалы, лёгкие арбалеты, пращи"
                             ],
                             [
-                                "{@class Warlock}",
-                                "A wielder of magic that is derived from a bargain with an extraplanar entity",
-                                "d8",
-                                "Charisma",
-                                "Wisdom & Charisma",
-                                "Light armor, simple weapons"
+                                "{@class Бард}",
+                                "Вдохновляющий заклинатель, черпающий мощь в музыке созидания",
+                                "к8",
+                                "Харизма",
+                                "Ловкость и Харизма",
+                                "Лёгкие доспехи, простое оружие, длинные мечи, короткие мечи, рапиры, ручные арбалеты"
                             ],
                             [
-                                "{@class Wizard}",
-                                "A scholarly magic-user capable of manipulating the structures of reality",
-                                "d6",
-                                "Intelligence",
-                                "Intelligence & Wisdom",
-                                "Daggers, darts, slings, quarterstaffs, light crossbows"
+                                "{@class Колдун}",
+                                "Обладатель магии, полученной посредством сделки с экстрапланарной сущностью",
+                                "к8",
+                                "Харизма",
+                                "Мудрость и Харизма",
+                                "Лёгкие доспехи, простое оружие"
                             ]
                         ]
                     }
@@ -1311,40 +1321,40 @@
             },
             {
                 "type": "section",
-                "name": "Personality and Background",
+                "name": "Личность и предыстория",
                 "page": 121,
                 "entries": [
-                    "Characters are defined by much more than their race and class. They're individuals with their own stories, interests, connections, and capabilities beyond those that class and race define. This chapter expounds on the details that distinguish characters from one another, including the basics of name and physical description, the rules of backgrounds and languages, and the finer points of personality and alignment.",
+                    "Персонажи характеризуются не только расой и классом. Они — личности, с собственной историей, связями и возможностями, выходящими за определения классов и рас. Эта глава описывает детали, отличающие персонажей друг от друга, включая такие основы, как имя и физическое описание, правила предысторий и языков, личностные особенности и мировоззрение.",
                     {
                         "type": "section",
-                        "name": "Character Details",
+                        "name": "Описание персонажа",
                         "page": 121,
                         "entries": [
-                            "Your character's name and physical description might be the first things that the other players at the table learn about you. It's worth thinking about how these characteristics reflect the character you have in mind.",
+                            "Имя вашего персонажа и его физическое описание могут быть первым, что другие игроки узнают о вас. Поэтому стоит подумать, как эти показатели будут отражать характер вашего персонажа, которого вы уже придумали в своей голове.",
                             {
                                 "type": "entries",
-                                "name": "Name",
+                                "name": "Имя",
                                 "entries": [
-                                    "Your character's race description includes sample names for members of that race. Put some thought into your name even if you're just picking one from a list."
+                                    "Описание расы вашего персонажа включает примеры имён для представителей этой расы. Вложите некоторый смысл в своё имя, даже если вы просто выбираете его из списка."
                                 ],
                                 "id": "043"
                             },
                             {
                                 "type": "entries",
-                                "name": "Sex",
+                                "name": "Пол",
                                 "page": 121,
                                 "entries": [
-                                    "You can play a male or female character without gaining any special benefits or hindrances. Think about how your character does or does not conform to the broader culture's expectations of sex, gender, and sexual behavior. For example, a male drow cleric defies the traditional gender divisions of drow society, which could be a reason for your character to leave society and come to the surface.",
-                                    "You don't need to be confined to binary notions of sex and gender. The elf god Corellon Larethian is often seen as androgynous or hermaphroditic, for example, and some elves in the multiverse are made in Corellon's image. You could also play a female character who presents herself as a man, a man who feels trapped in a female body, or a bearded female dwarf who hates being mistaken for a male. Likewise, your character's sexual orientation is for you to decide.",
+                                    "Вы можете играть мужчиной или женщиной, не получая особых преимуществ или недостатков. Подумайте о том, как ваш персонаж относится к вопросу полов. Например, мужчина жрец дроу может отрицать традиционное разделение по половому признаку общества своей расы, и именно поэтому он покинул его и отправился на поверхность.",
+                                    "Вы не обязаны следовать бинарному представлению о поле и гендере. Например, эльфийский бог Кореллон Ларетиан часто  как андрогин или гермафродит, и некоторые эльфы в мультивселенной созданы по его образу. Вы также можете играть женским персонажем, представляющим себя мужчиной и чувствующим себя запертым в женском теле, или бородатой женщиной-гномом, ненавидящую, когда ее принимают за мужчину. Точно так же вам решать сексуальную ориентацию вашего персонажа.",
                                     {
                                         "type": "inset",
-                                        "name": "Tika and Artemis: Contrasting Characters",
+                                        "name": "Тика и Артемис: Контрастные персонажи",
                                         "page": 121,
                                         "entries": [
-                                            "The details in this chapter make a big difference in setting your character apart from every other character. Consider the following two human fighters.",
-                                            "Hailing from the Dragonlance setting, Tika Waylan was a brash teenager who had a rough childhood. The daughter of a thief, she ran away from home and practiced her father's trade on the streets of Solace. When she tried to rob the proprietor of the Inn of the Last Home, he caught her and took her under his wing, giving her a job as a barmaid. But when the dragon armies laid waste to the town of Solace and destroyed the inn, necessity forced Tika into adventure alongside the friends she'd known from her childhood. Her skill as a fighter (a frying pan remains one of her favorite weapons) combined with her history on the streets gave her skills invaluable in her adventuring career.",
-                                            "Artemis Entreri grew up on the streets of Cailmport in the Forgotten Realms. He used his wits, strength, and agility to carve out his own territory in one of the city's hundreds of poor shanty towns. After several years, he attracted the notice of one of the most powerful thieves' guilds in the city, and he ascended the ranks of the guild quickly despite his youth. Artemis became the favored assassin of one of the city's pashas, who sent him to far-off Icewind Dale to recover some stolen gems. He's a professional killer, constantly challenging himself to improve his skills.",
-                                            "Tika and Artemis are both human and both fighters (with some experience as rogues), possessing similarly high Strength and Dexterity scores, but there the similarity ends."
+                                            "Информация из этой главы делает персонажей непохожими друг на друга. Давайте рассмотрим двух людей воинов.",
+                                            "Тика Вейлан родом из мира Саги о Копье. Это дерзкая девочка-подросток, у которой было суровое детство. Будучи дочерью вора, она сбежала из дома и занималась на улицах города Утеха тем же, что и её отец. Попытавшись ограбить владельца таверны Последний Приют, она попалась, но была принята на воспитание и стала официанткой. Однако когда войска драконов уничтожили город и сожгли таверну, нужда заставила Тику пуститься в приключения с друзьями, которых она знала с детства. Её навыки воина (сковородка так и осталась её любимым оружием) вкупе с опытом жизни на улицах дали ей знания, бесценные в карьере искателя приключений.",
+                                            "Артемис Энтрери вырос на улицах Калимпорта в мире Забытых Королевств. С помощью хитрости, силы и ловкости он завоёвывал свой кусочек территории в трущобах. Через несколько лет он привлёк внимание одной из самых влиятельных гильдий воров в городе, и, несмотря на молодость, был принят в её члены. Артемис стал избранным наёмным убийцей одного из пашей города, отправившего его в далёкую долину Ледяного Ветра, чтобы вернуть украденные драгоценные камни. Это профессиональный убийца, постоянно совершенствующий свои навыки.",
+                                            "Тика и Артемис оба люди и оба относятся к классу воин (а также обладают знаниями плута). У них высокие значения Силы и Ловкости, но на этом их сходство заканчивается."
                                         ],
                                         "id": "045"
                                     }
@@ -1353,21 +1363,20 @@
                             },
                             {
                                 "type": "entries",
-                                "name": "Height and Weight",
+                                "name": "Рост и вес",
                                 "page": 121,
                                 "entries": [
-                                    "You can decide your character's height and weight, using the information provided in your race description or on the Random Height and Weight table. Think about what your character's ability scores might say about his or her height and weight. A weak but agile character might be thin. A strong and tough character might be tall or just heavy.",
-                                    "If you want to, you can roll randomly for your character's height and weight using the Random Height and Weight table.",
-                                    "The dice roll given in the Height Modifier column determines the character's extra height (in inches) beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier column determines the character's extra weight (in pounds) beyond the base weight.",
+                                    "Вы можете определить рост и вес своего персонажа, используя информацию, приведённую в описании вашей расы, или же воспользовавшись приведённой ниже таблицей. Подумайте, как характеристики вашего персонажа могут повлиять на его рост и вес. Слабый, но подвижный персонаж может быть худым, в то время как сильный и стойкий персонаж может быть высоким или просто крупным.",
+                                    "Вы можете случайным образом определить рост и вес персонажа, используя таблицу. Бросок по колонке «модификатор роста» определяет количество дюймов, которое необходимо прибавить к базовому росту персонажа, выраженному в футах и дюймах. Это же число, умноженное на результат броска костей или готовое число из колонки «модификатор веса», определяет количество фунтов, которые необходимо прибавить к базовому весу персонажа.",
                                     {
                                         "type": "table",
-                                        "caption": "Random Height and Weight",
+                                        "caption": "Случайный рост и вес",
                                         "colLabels": [
-                                            "Race",
-                                            "Base Height",
-                                            "Height Modifier",
-                                            "Base Weight",
-                                            "Weight Modifier"
+                                            "Раса",
+                                            "Базовый рост",
+                                            "Мод. роста (×2,5 см)",
+                                            "Базовый вес",
+                                            "Мод. веса (×0,45 кг)"
                                         ],
                                         "colStyles": [
                                             "col-4",
@@ -1378,107 +1387,108 @@
                                         ],
                                         "rows": [
                                             [
-                                                "{@race Human}",
-                                                "4'8\"",
-                                                "+{@dice 2d10}",
-                                                "110 lb.",
-                                                "× ({@dice 2d4}) lb."
+                                                "{@race Человек}",
+                                                "4' 8\" (142 см)",
+                                                "+{@dice 2d10|2к10}",
+                                                "110 фнт. (50 кг)",
+                                                "× ({@dice 2d4|2к4}) фнт."
                                             ],
                                             [
-                                                "{@race Dwarf (hill)}",
-                                                "3'8\"",
-                                                "+{@dice 2d4}",
-                                                "115 lb.",
-                                                "× ({@dice 2d6}) lb."
+                                                "{@race Дварф, горный}",
+                                                "3' 8\" (112 см)",
+                                                "+{@dice 2d4|2к4}",
+                                                "115 фнт. (52 кг)",
+                                                "× ({@dice 2d6|2к6}) фнт."
                                             ],
                                             [
-                                                "{@race Dwarf (mountain)}",
-                                                "4'",
-                                                "+{@dice 2d4}",
-                                                "130 lb.",
-                                                "× ({@dice 2d6}) lb."
+                                                "{@race Дварф, холмовой}",
+                                                "4' (122 см)",
+                                                "+{@dice 2d4|2к4}",
+                                                "130 фнт. (59 кг)",
+                                                "× ({@dice 2d6|2к6}) фнт."
                                             ],
                                             [
-                                                "{@race Elf (high)}",
-                                                "4'6\"",
-                                                "+{@dice 2d10}",
-                                                "90 lb.",
-                                                "× ({@dice 1d4}) lb."
+                                                "{@race Эльф, высший}",
+                                                "4' 6\" (134,5 см)",
+                                                "+{@dice 2d10|2к10}",
+                                                "90 фнт. (41 кг)",
+                                                "× ({@dice 1d4|1к4}) фнт."
                                             ],
                                             [
-                                                "{@race Elf (wood)}",
-                                                "4'6\"",
-                                                "+{@dice 2d10}",
-                                                "100 lb.",
-                                                "× ({@dice 1d4}) lb."
+                                                "{@race Эльф, лесной}",
+                                                "4' 6\" (137 см)",
+                                                "+{@dice 2d10|2к10}",
+                                                "100 фнт. (45,5 кг)",
+                                                "× ({@dice 1d4|1к4}) фнт."
                                             ],
                                             [
-                                                "{@race Elf (drow)}",
-                                                "4'5\"",
-                                                "+{@dice 2d6}",
-                                                "75 lb.",
-                                                "× ({@dice 1d6}) lb."
+                                                "{@race Эльф, дроу}",
+                                                "4' 5\" (134,5 см)",
+                                                "+{@dice 2d6|2к6}",
+                                                "75 фнт. (34 кг)",
+                                                "× ({@dice 1d6|1к6}) фнт."
                                             ],
                                             [
-                                                "{@race Halfling}",
-                                                "2'7\"",
-                                                "+{@dice 2d4}",
-                                                "35 lb.",
-                                                "× 1 lb"
+                                                "{@race Полурослик}",
+                                                "2' 7\" (78,5 см)",
+                                                "+{@dice 2d4|2к4}",
+                                                "35 фнт. (16 кг)",
+                                                "× 1 фнт."
                                             ],
                                             [
-                                                "{@race Dragonborn}",
-                                                "5'6\"",
-                                                "+{@dice 2d8}",
-                                                "175 lb.",
-                                                "× ({@dice 2d6}) lb."
+                                                "{@race Драконорождённый}",
+                                                "5' 6\" (167,5 см)",
+                                                "+{@dice 2d8|2к8}",
+                                                "175 фнт. (79,5 кг)",
+                                                "× ({@dice 2d6|2к6}) фнт."
                                             ],
                                             [
-                                                "{@race Gnome}",
-                                                "2' 11\"",
-                                                "+{@dice 2d4}",
-                                                "35 lb.",
-                                                "× 1 lb."
+                                                "{@race Гном}",
+                                                "2' 11\" (89 см)",
+                                                "+{@dice 2d4|2к4}",
+                                                "35 фнт. (16 кг)",
+                                                "× 1 фнт."
                                             ],
                                             [
-                                                "{@race Half-elf}",
-                                                "4'9\"",
-                                                "+{@dice 2d8}",
-                                                "110 lb.",
-                                                "× ({@dice 2d4}) lb."
+                                                "{@race Полуэльф}",
+                                                "4' 9\" (145 см)",
+                                                "+{@dice 2d8|2к8}",
+                                                "110 фнт. (50 кг)",
+                                                "× ({@dice 2d4|2к4}) фнт."
                                             ],
                                             [
-                                                "{@race Half-orc}",
-                                                "4'10\"",
-                                                "+{@dice 2d10}",
-                                                "140 lb.",
-                                                "× ({@dice 2d6}) lb."
+                                                "{@race Полуорк}",
+                                                "4' 10\" (147,5 см)",
+                                                "+{@dice 2d10|2к10}",
+                                                "140 фнт. (63,5 кг)",
+                                                "× ({@dice 2d6|2к6}) фнт."
                                             ],
                                             [
-                                                "{@race Tiefling}",
-                                                "4 '9\"",
-                                                "+{@dice 2d8}",
-                                                "110 lb.",
-                                                "× ({@dice 2d4}) lb."
+                                                "{@race Тифлинг}",
+                                                "4' 9\" (145 см)",
+                                                "+{@dice 2d8|2к8}",
+                                                "110 фнт. (50 кг)",
+                                                "× ({@dice 2d4|2к4}) фнт."
                                             ]
                                         ]
                                     },
-                                    "For example, as a human, Tika has a height of 4 feet 8 inches plus 2d10 inches. Her player rolls 2d10 and gets a total of 12, so Tika stands 5 feet 8 inches tall. Then the player uses that same roll of 12 and multiplies it by 2d4 pounds. Her 2d4 roll is 3, so Tika weighs an extra 36 pounds (12 × 3) on top of her base 110 pounds, for a total of 146 pounds."
+                                    "Например, у Тики, как у человека, рост 4 фута 8 дюймов плюс 2к10 дюймов. Её игрок бросает 2к10 и получает результат 12. В итоге у Тики рост 5 футов 8 дюймов, то есть 173 сантиметра. Затем игрок берёт тот же результат броска (12) и умножает его на 2к4 фунта. В результате броска 2к4 игрок получает 3, поэтому Тика прибавляет 36 фунтов (12 × 3) к своему базовому весу 110 фунтов, получая окончательный вес 146 фунтов, то есть 66 килограмм."
                                 ],
                                 "id": "046"
                             },
                             {
                                 "type": "entries",
-                                "name": "Other Physical Characteristics",
+                                "name": "Другие физические характеристики",
                                 "page": 121,
                                 "entries": [
-                                    "You choose your character's age and the color of his or her hair, eyes, and skin. To add a touch of distinctiveness, you might want to give your character an unusual or memorable physical characteristic, such as a scar, a limp, or a tattoo.",
+                                    "Вы выбираете возраст своего персонажа, цвет его волос, глаз и кожи. Чтобы получить своеобразную нотку, вы можете добавить необычную или памятную характеристику, такую как шрам, хромоту или татуировку.",
                                     {
                                         "type": "inset",
-                                        "name": "Tika and Artemis: Character Details",
+                                        "name": "Тика и Артемис: Подробности персонажей",
                                         "page": 122,
                                         "entries": [
-                                            "Consider how the names Tika Waylan and Artemis Entreri set these characters apart from each other and reflect their personalities. Tika is a young woman determined to prove that she's not just a kid any more, and her name makes her sound young and ordinary. Artemis Entreri comes from an exotic land and carries a more mysterious name. Tika is nineteen years old at the start of her adventuring career and has auburn hair, green eyes, fair skin with freckles, and a mole on her right hip. Artemis is a small man, compact and all wiry muscle. He has angular features and high cheekbones, and he always seems in need of a shave. His raven black hair is thick and full, but his eyes are gray and lifeless\u2014betraying the emptiness of his life and soul."
+                                            "Посмотрите, как даже имена отличают Тику Вейлан и Артемиса Энтрери, отражая их личности. Тика — молодая девушка, решившая доказать, что она уже не ребёнок, и её имя весьма простое. Артемис прибыл из экзотической страны, и имя у него загадочное.",
+                                            "Тике 19 лет в начале приключения, и у неё рыжие волосы, зелёные глаза, светлая кожа с веснушками и родинка на правой щеке. Артемис невысок и плотно сложен. У него рельефная мускулатура, угловатые черты лица, высокие скулы и постоянная щетина. У него густые чёрные волосы, а глаза серые и безжизненные — они выдают пустоту его жизни и души."
                                         ],
                                         "id": "048"
                                     }
@@ -1487,37 +1497,36 @@
                             },
                             {
                                 "type": "entries",
-                                "name": "Alignment",
+                                "name": "Мировоззрение",
                                 "page": 122,
                                 "entries": [
-                                    "A typical creature in the worlds of Dungeons & Dragons has an alignment, which broadly describes its moral and personal attitudes. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward society and order (lawful, chaotic, or neutral).",
-                                    "Thus, nine distinct alignments define the possible combinations.",
-                                    "These brief summaries of the nine alignments describe the typical behavior of a creature with that alignment. Individuals might vary significantly from that typical behavior, and few people are perfectly and consistently faithful to the precepts of their alignment.",
-                                    "{@b Lawful good} (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons and paladins are typically lawful good.",
-                                    "{@b Neutral good} (NG) folk do the best they can to help others according to their needs. Many celestials are neutral good.",
-                                    "{@b Chaotic good} (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons and unicorns are typically chaotic good.",
-                                    "{@b Lawful neutral} (LN) individuals act in accordance with law, tradition, or personal codes. Modrons and many wizards and monks are lawful neutral.",
-                                    "{@b Neutral} (N) is the alignment of those who prefer to steer clear of moral questions and don't take sides, doing what seems best at the time. Druids are traditionally neutral, as are typical townsfolk.",
-                                    "{@b Chaotic neutral} (CN) creatures follow their whims, holding their personal freedom above all else. Many rogues and bards are chaotic neutral.",
-                                    "{@b Lawful evil} (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils and blue dragons are typically lawful evil.",
-                                    "{@b Neutral evil} (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Yugoloths are typically neutral evil.",
-                                    "{@b Chaotic evil} (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons and red dragons are typically chaotic evil.",
+                                    "У существ в мирах D&D есть своё мировоззрение, которое в примерных чертах описывает моральный и личный настрой. Мировоззрение является комбинацией двух факторов: первый отражает мораль (добрый, злой или нейтральный), а другой описывает отношение к обществу и порядку (законный, хаотический или нейтральный). Таким образом, из всех комбинаций получаются девять различных мировоззрений.",
+                                    "Ниже приведены краткие изложения девяти мировоззрений и типичное поведение существ с этим мировоззрением. Поведение индивидуумов может значительно отличаться от данного типичного поведения, и мало кто непрестанно выполняет все заветы выбранного мировоззрения.",
+                                    "{@b Законно-добрые} (ЗД) существа совершают поступки, считающиеся в обществе как правильные. Золотые драконы, паладины и большинство дварфов являются законно-добрыми.",
+                                    "{@b Нейтрально-добрые} (НД) стараются сделать всё, от них зависящее, чтобы помочь другим. Многие небожители, некоторые облачные великаны и большинство гномов нейтрально-добрые.",
+                                    "{@b Хаотично-добрые} (ХД) существа действуют по собственной совести, вне зависимости от того, что думают другие. Медные драконы, многие эльфы и единороги хаотично-добрые.",
+                                    "{@b Законно-нейтральные} (ЗН) индивидуумы действуют в соответствии с законом, традицией, или личным кодексом. Многие монахи и некоторые волшебники являются законно-нейтральными.",
+                                    "{@b Нейтральное} (Н) мировоззрение у тех, кто предпочитает держаться подальше от нравственных вопросов и не принимать ничью сторону, делая то, что кажется лучшим в данное время. Людоящеры, большинство друидов и многие люди являются нейтральными.",
+                                    "{@b Хаотично-нейтральные} (ХН) существа следуют своим прихотям, держа свою личную свободу превыше всего. Многие варвары и разбойники, а также некоторые барды хаотично-нейтральны.",
+                                    "{@b Законно-злые} (ЗЗ) существа методично берут то, что хотят, в рамках кодекса традиции, верности, или порядка. Дьяволы, синие драконы и хобгоблины законно-злые.",
+                                    "{@b Нейтрально-злое} (НЗ) мировоззрение у тех, кто делает всё, что может сойти им с рук, без сострадания и угрызений совести. Многие дроу, некоторые облачные великаны и юголоты нейтрально-злы.",
+                                    "{@b Хаотично-злые} (ХЗ) существа действуют со спонтанной жестокостью, вызванной их жадностью, ненавистью или жаждой крови. Демоны, красные драконы и орки хаотично-злы.",
                                     {
                                         "type": "entries",
-                                        "name": "Alignment in the Multiverse",
+                                        "name": "Мировоззрение в мультивселенной",
                                         "page": 122,
                                         "entries": [
-                                            "For many thinking creatures, alignment is a moral choice. Humans, dwarves, elves, and other people can choose whether to follow the paths of good or evil, law or chaos. According to myth, the gods who created these folk gave them free will to choose their moral paths.",
-                                            "Alignment is an essential part of the nature of celestials and fiends. Both types of creatures are associated with metaphysical planes of existence\u2014specifically the Outer Planes\u2014that embody certain alignments. For example, most devils hail from the Nine Hells, a plane of lawful evil. A devil does not choose to be lawful evil or tend toward lawful evil, but rather it is lawful evil in its essence. If it somehow ceases to be lawful evil, it changes into something new\u2014a transformation worthy of legend.",
-                                            "Generally, evil alignments are for villains and monsters.",
-                                            "A devil does not choose to be lawful evil, and it doesn't tend toward lawful evil, but rather it is lawful evil in its essence. If it somehow ceased to be lawful evil, it would cease to be a devil.",
-                                            "Most creatures that lack the capacity for rational thought do not have alignments\u2014they are {@b unaligned}. Such a creature is incapable of making a moral or ethical choice and acts according to its bestial nature. Sharks are savage predators, for example, but they are not evil; they have no alignment.",
+                                            "Для многих существ мировоззрение является вопросом морального выбора. Люди, дварфы, эльфы и другие народы могут выбрать, чему они следуют — путям добра или зла, порядка или хаоса. По легенде добрые боги, которые создали расы, даровали им свободную волю для определения своей судьбы, зная, что добро нельзя навязать силой.",
+                                            "Злые же божества, создавшие другие расы, создавали себе рабов. У этих рас характер от рождения похож на характер их божеств. Большинство орков разделяет жестокую и дикую натуру своего бога, Груумша, и потому склонны к злу. Даже если орк выберет доброе мировоззрение, он всю свою жизнь будет бороться с врождёнными помыслами (даже полуорки чувствуют томительное влияние бога орков).",
+                                            "Мировоззрение — важная часть природы небожителей и исчадий. Дьяволы не сами решают быть законно-злыми, и у них нет врождённой склонности к законно-злому мировоззрению. Они законно-злы по своей сущности. Если дьявол перестанет быть законно-злым, он перестанет быть дьяволом.",
+                                            "Многие существа, лишённые рационального мышления, не имеют мировоззрения как такового. Такие существа не могут совершать моральный и этический выбор, и действуют согласно звериной природе. Акулы, например, дикие хищники, но они не злы; у них нет мировоззрения.",
                                             {
                                                 "type": "inset",
-                                                "name": "Tika and Artemis: Alignment",
+                                                "name": "Тика и Артемис: Мировоззрение",
                                                 "page": 122,
                                                 "entries": [
-                                                    "Tika Waylan is neutral good, fundamentally good-hearted and striving to help others where she can. Artemis is lawful evil, unconcerned with the value of sentient life but at least professional in his approach to murder. As an evil character, Artemis is not an ideal adventurer. He began his career as a villain, and only cooperates with heroes when he must\u2014and when it's in his own best interests. In most games, evil adventurers cause problems in groups alongside others who don't share their interests and objectives."
+                                                    "У Тики Вейлан нейтрально-доброе мировоззрение, у неё доброе сердце, и она всегда помогает нуждающимся, если может. Артемис же законно-злой, он ни в грош не ставит ценность жизни, во всяком случае, с точки зрения своей профессии убийцы.",
+                                                    "Будучи злым персонажем, Артемис плохо подходит на роль искателя приключений. Он зол и эгоистичен, и только острая необходимость или выгода заставит его сотрудничать с другими героями. В большинстве игр злые искатели приключений приносят много проблем в группах, которые не разделяют их интересы. Чаще всего злое мировоззрение имеют злодеи и чудовища."
                                                 ],
                                                 "id": "04b"
                                             }
@@ -1529,22 +1538,22 @@
                             },
                             {
                                 "type": "entries",
-                                "name": "Languages",
+                                "name": "Языки",
                                 "page": 123,
                                 "data": {
                                     "quickref": 1
                                 },
                                 "entries": [
-                                    "Your race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages on your character sheet.",
-                                    "With your Мастер's permission, you can instead choose a language from the Exotic Languages table or a secret language, such as thieves' cant or the tongue of druids.",
-                                    "Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the {@language Auran}, {@language Aquan}, {@language Ignan}, and {@language Terran} dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.",
+                                    "Ваша раса указывает языки, на которых ваш персонаж может говорить по умолчанию, а предыстория может дать ещё несколько языков на выбор. Запишите эти языки на листе персонажа.",
+                                    "Выберите языки из таблицы обычных языков или из тех, что считаются обычными в вашей кампании. С разрешения Мастера, вы можете выбрать язык из таблицы экзотических языков или тайный язык, такой как жаргон воров или язык друидов.",
+                                    "Некоторые из этих языков на деле являются семействами языков с многочисленными диалектами. Например, Первичный язык включает диалекты Акван, Ауран, Игнан, и Терран, по одному на каждый из четырёх стихийных планов. Существа, говорящие на разных диалектах одного языка могут общаться между собой.",
                                     {
                                         "type": "table",
-                                        "caption": "Standard Languages",
+                                        "caption": "Обычные языки",
                                         "colLabels": [
-                                            "Language",
-                                            "Typical Speakers",
-                                            "Script"
+                                            "Язык",
+                                            "Типичный представитель",
+                                            "Письменность"
                                         ],
                                         "colStyles": [
                                             "col-4",
@@ -1553,54 +1562,54 @@
                                         ],
                                         "rows": [
                                             [
-                                                "Common",
-                                                "Humans",
-                                                "Common"
+                                                "Общий",
+                                                "Люди",
+                                                "Общая"
                                             ],
                                             [
-                                                "Dwarvish",
-                                                "Dwarves",
-                                                "Dwarvish"
+                                                "Дварфский",
+                                                "Дварфы",
+                                                "Дварфская"
                                             ],
                                             [
-                                                "Elvish",
-                                                "Elves",
-                                                "Elvish"
+                                                "Эльфийский",
+                                                "Эльфы",
+                                                "Эльфийская"
                                             ],
                                             [
-                                                "Giant",
-                                                "Ogres, giants",
-                                                "Dwarvish"
+                                                "Полуросликов",
+                                                "Полурослики",
+                                                "Общая"
                                             ],
                                             [
-                                                "Gnomish",
-                                                "Gnomes",
-                                                "Dwarvish"
+                                                "Великаний",
+                                                "Огры, великаны",
+                                                "Великанья"
                                             ],
                                             [
-                                                "Goblin",
-                                                "Goblinoids",
-                                                "Dwarvish"
+                                                "Гномий",
+                                                "Гномы",
+                                                "Дварфская"
                                             ],
                                             [
-                                                "Halfling",
-                                                "Halflings",
-                                                "Common"
+                                                "Гоблинский",
+                                                "Гоблиноиды",
+                                                "Дварфская"
                                             ],
                                             [
-                                                "Orc",
-                                                "Orcs",
-                                                "Dwarvish"
+                                                "Орочий",
+                                                "Орки",
+                                                "Дварфская"
                                             ]
                                         ]
                                     },
                                     {
                                         "type": "table",
-                                        "caption": "Exotic Languages",
+                                        "caption": "Экзотические языки",
                                         "colLabels": [
-                                            "Language",
-                                            "Typical Speakers",
-                                            "Script"
+                                            "Язык",
+                                            "Типичный представитель",
+                                            "Письменность"
                                         ],
                                         "colStyles": [
                                             "col-4",
@@ -1609,44 +1618,44 @@
                                         ],
                                         "rows": [
                                             [
-                                                "Abyssal",
-                                                "Demons",
-                                                "Infernal"
+                                                "Драконий",
+                                                "Драконы, драконорождённые",
+                                                "Драконья"
                                             ],
                                             [
-                                                "Celestial",
-                                                "Celestials",
-                                                "Celestial"
+                                                "Сильван",
+                                                "Фейские существа",
+                                                "Эльфийская"
                                             ],
                                             [
-                                                "Draconic",
-                                                "Dragons, dragonborn",
-                                                "Draconic"
+                                                "Подземный",
+                                                "Купцы Подземья",
+                                                "Эльфийская"
                                             ],
                                             [
-                                                "Deep Speech",
-                                                "Mind Flayers, beholders",
-                                                "\u2014"
+                                                "Глубинная Речь",
+                                                "Иллитиды, злобоглазы",
+                                                "—"
                                             ],
                                             [
-                                                "Infernal",
-                                                "Devils",
-                                                "Infernal"
+                                                "Первичный",
+                                                "Элементали",
+                                                "Дварфская"
                                             ],
                                             [
-                                                "Primordial",
-                                                "Elementals",
-                                                "Dwarvish"
+                                                "Инфернальный",
+                                                "Дьяволы",
+                                                "Инфернальная"
                                             ],
                                             [
-                                                "Sylvan",
-                                                "Fey creatures",
-                                                "Elvish"
+                                                "Бездны",
+                                                "Демоны",
+                                                "Инфернальная"
                                             ],
                                             [
-                                                "Undercommon",
-                                                "Underdark traders",
-                                                "Elvish"
+                                                "Небесный",
+                                                "Небожители",
+                                                "Небесная"
                                             ]
                                         ]
                                     }
@@ -1655,30 +1664,30 @@
                             },
                             {
                                 "type": "entries",
-                                "name": "Personal Characteristics",
+                                "name": "Персонализация",
                                 "page": 123,
                                 "entries": [
-                                    "Fleshing out your character's personality\u2014the array of traits, mannerisms, habits, beliefs, and flaws that give a person a unique identity\u2014will help you bring him or her to life as you play the game. Four categories of characteristics are presented here: personality traits, ideals, bonds, and flaws. Beyond those categories, think about your character's favorite words or phrases, tics and habitual gestures, vices and pet peeves, and whatever else you can imagine.",
-                                    "Each background presented later in this chapter includes suggested characteristics that you can use to spark your imagination. You're not bound to those options, but they're a good starting point.",
+                                    "Конкретизируйте личность своего персонажа — определите его привычки, манеры, убеждения и недостатки, которые определяют его, как уникальную личность. Это поможет вам вдохнуть в него жизнь во время игры. Здесь представлены четыре категории персонализации: черты характера, идеалы, привязанности и слабости. Помимо этих категорий стоит подумать о типичных фразах, жестах, больных местах, в общем, обо всём, что вы можете представить.",
+                                    "Все предыстории, предложенные далее, включают в себя варианты, способные разжечь ваше воображение. Вы не обязаны выбирать только из них, но они являются хорошей отправной точкой.",
                                     {
                                         "type": "entries",
-                                        "name": "Personality Traits",
+                                        "name": "Черты характера",
                                         "page": 123,
                                         "entries": [
-                                            "Give your character two personality traits. Personality traits are small, simple ways to help you set your character apart from every other character. Your personality traits should tell you something interesting and fun about your character. They should be self descriptions that are specific about what makes your character stand out. \"I'm smart\" is not a good trait, because it describes a lot of characters. \"I've read every book in Candlekeep\" tells you something specific about your character's interests and disposition.",
-                                            "Personality traits might describe the things your character likes, his or her past accomplishments, things your character dislikes or fears, your character's self attitude or mannerisms, or the influence of his or her ability scores.",
-                                            "A useful place to start thinking about personality traits is to look at your highest and lowest ability scores and define one trait related to each. Either one could be positive or negative: you might work hard to overcome a low score, for example, or be cocky about your high score."
+                                            "Определите две черты характера своего персонажа. Черты характера это простой способ отличить вашего персонажа от любого другого. Эти черты должны рассказывать о вашем персонаже что-то интересное и забавное. Они должны рассказать нечто особенное, что могло бы выделить его среди остальных. «Я умный» — плохая черта, так как подходит многим персонажам. «Я прочёл все книги в Крепости Свечи» говорит об интересах вашего персонажа значительно больше.",
+                                            "Черты характера могут рассказывать о достижениях вашего персонажа, его пристрастиях или страхах, его манерах и самооценке. Они могут чтото рассказывать о его игровых характеристиках.",
+                                            "Можно придумать черты характера, посмотрев на максимальную и минимальную характеристику своего персонажа, и придумав по черте, связанной с ними. Обе могут быть как положительными, так и отрицательными. Например, вы можете пытаться преодолеть свои недостатки, если речь идёт о низком значении, либо это может быть излишняя самоуверенность и дерзость, если речь идёт о высоком значении."
                                         ],
                                         "id": "04e"
                                     },
                                     {
                                         "type": "entries",
-                                        "name": "Ideals",
+                                        "name": "Идеалы",
                                         "page": 124,
                                         "entries": [
-                                            "Describe one ideal that drives your character. Your ideals are the things that you believe in most strongly, the fundamental moral and ethical principles that compel you to act as you do. Ideals encompass everything from your life goals to your core belief system.",
-                                            "Ideals might answer any of these questions: What are the principles that you will never betray? What would prompt you to make sacrifices? What drives you to act and guides your goals and ambitions? What is the single most important thing you strive for?",
-                                            "You can choose any ideals you like, but your character's alignment is a good place to start defining them. Each background in this chapter includes six suggested ideals. Five of them are linked to aspects of alignment: law, chaos, good, evil, and neutrality. The last one has more to do with the particular background than with moral or ethical perspectives."
+                                            "Определите один идеал, что движет вашим персонажем. Идеалы — это вещи, в которые вы верите настолько сильно, что они определяют ваши моральные принципы и линию поведения. Идеалы охватывают все аспекты жизни: от жизненных целей до убеждений.",
+                                            "Идеалы способны ответить на такие вопросы как: Какие принципы вы никогда не предадите? Что заставит вас пойти на жертвы? Что направляет все ваши усилия и амбиции? Что является самым важным, к чему стоит стремиться?",
+                                            "Вы можете выбрать любые идеалы, которые вам приглянулись, но отталкиваться от вашего мировоззрения при их выборе было бы правильным решением. Каждая предыстория включает в себя шесть вариантов идеалов, пять из которых связаны с возможным мировоззрением: закон, хаос, добро, зло, нейтральность. Последняя определяет предысторию без учёта моральных или этических норм."
                                         ],
                                         "id": "04f"
                                     },
@@ -1687,29 +1696,32 @@
                                         "name": "Bonds",
                                         "page": 124,
                                         "entries": [
-                                            "Create one bond for your character. Bonds represent a character's connections to people, places, and events in the world. They tie you to things from your background. They might inspire you to heights of heroism, or lead you to act against your own best interests if they are threatened. They can work very much like ideals, driving a character's motivations and goals.",
-                                            "Bonds might answer any of these questions: Whom do you care most about? To what place do you feel a special connection? What is your most treasured possession?",
-                                            "Your bonds might be tied to your class, your background, your race, or some other aspect of your character's history or personality. You might also gain new bonds over the course of your adventures."
+                                            "Создайте одну привязанность для своего персонажа. Привязанности определяют взаимосвязь вашего персонажа с людьми, местами или историческими событиями. Они связывают вас с некоторыми вещами в вашей предыстории. Они могут вдохновить вас на подвиги, или же заставят вас действовать вопреки убеждениям, если вы вдруг окажетесь в опасности. Они могут влиять на личность персонажа так же сильно, как и его идеалы, определяя его цели и стремления.",
+                                            "Привязанности позволяют ответить на вопросы: Кто вам действительного дорог? С каким местом у вас есть особая связь? Какой предмет вам наиболее ценен?",
+                                            "Ваши привязанности могут быть переплетены с вашим классом, предысторией, расой и прочими аспектами вашей истории. Вы можете получать новые привязанности во время приключений."
                                         ],
                                         "id": "050"
                                     },
                                     {
                                         "type": "entries",
-                                        "name": "Flaws",
+                                        "name": "Слабости",
                                         "page": 124,
                                         "entries": [
-                                            "Finally, choose a flaw for your character. Your character's flaw represents some vice, compulsion, fear, or weakness\u2014in particular, anything that someone else could exploit to bring you to ruin or cause you to act against your best interests. More significant than negative personality traits, a flaw might answer any of these questions: What enrages you? What's the one person, concept, or event that you are terrified of? What are your vices?"
+                                            "И, наконец, выберите слабость своего персонажа. Слабость вашего персонажа может выражаться в личном враге, страхе, страсти, недостатке — в общем, это всё то, что можно использовать против вас. Ваша слабость позволяет ответить на вопросы: Что вас бесит? Кто (или что) пугает вас? Кто считает вас своим врагом?"
                                         ],
                                         "id": "051"
                                     },
                                     {
                                         "type": "inset",
-                                        "name": "Tika and Artemis: Personal Characteristics",
+                                        "name": "Тика и Артемис: Персонализация",
                                         "page": 124,
                                         "entries": [
-                                            "Tika and Artemis have distinct personality traits. Tika Waylan dislikes boastfulness and has a fear of heights resulting from a bad fall during her career as a thief. Artemis Entreri is always prepared for the worst and moves with quick, precise confidence.",
-                                            "Consider their ideals. Tika Waylan is innocent, almost childlike, believing in the value of life and the importance of appreciating everyone. Neutral good in alignment, she cleaves to ideals of life and respect. Artemis Entreri never allows his emotions to master him, and he constantly challenges himself to improve his skills. His lawful evil alignment gives him ideals of impartiality and a lust for power. Tika Waylan's bond is to the Inn of the Last Home. The inn's proprietor gave her a new chance at life, and her friendship with her adventuring companions was forged during her time working there. Its destruction by the marauding dragonarmies gives Tika a very personal reason to hate them with a fiery passion. Her bond might be phrased \"I will do whatever it takes to punish the dragonarmies for the destruction of the Inn of the Last Home.\"Artemis Entreri's bond is a strange, almost paradoxical relationship with Drizzt Do'Urden, his equal in swordplay and grim determination. In his first battle with Drizzt, Artemis recognized something of himself in his opponent, some indication that if his life had gone differently, might have led a life more like the heroic drow's. From that moment, Artemis is more than a criminal assassin\u2014he is an antihero, driven by his rivalry with Drizzt. His bond might be phrased as \"I will not rest until I have proved myself better than Drizzt Do'Urden.\"Each of these characters also has an important flaw. Tika Waylan is naive and emotionally vulnerable, younger than her companions and annoyed that they still think of her as the kid they knew years ago. She might even be tempted to act against her principles if she's convinced that a particular achievement would demonstrate her maturity.",
-                                            "Artemis Entreri is completely walled off from any personal relationship and just wants to be left alone."
+                                            "У Тики и Артемиса имеются существенные отличия. Тика Вейлан не любит хвастунов и боится высоты из-за неудачного падения во время её карьеры в качестве вора. Артемис Энтрери всегда готов к худшему и двигается быстро и уверенно.",
+                                            "Рассмотрим их идеалы. Тика Вейлан по-детски невинна, она верит в ценность жизни и в то, что каждый может быть в чём-то хорош. Нейтрально-доброе мировоззрение разделяет её идеалы жизни и уважения. Артемис Энтрери никогда не поддаётся эмоциям, он постоянно испытывает себя, чтобы улучшить свои навыки. Его законно-злое мировоззрение даёт ему идеалы непредвзятости и жажды власти.",
+                                            "Привязанность Тики ведёт нас к таверне Последний Приют. Хозяин таверны дал ей шанс начать новую жизнь, и её дружба с искателями приключений началась в то время, пока она там работала. Разрушение таверны драконидами даёт Тике очень серьёзную причину ненавидеть их всей душой. Её привязанность может быть описана так: «Я сделаю всё, чтобы покарать драконидов за разрушение Последнего Приюта».",
+                                            "Привязанность Артемиса это странные, почти парадоксальные отношения с Дриззтом До’урденом, равного ему по фехтованию и мрачной решимости. В первом их сражении с Дриззтом Артемис увидел нечто особенное в своём противнике и понял, что его жизнь изменится к лучшему, если он будет больше походить на легендарного дроу. С той встречи Артемис стал не просто убийцей и преступником — соперничество с Дриззтом превратило его в настоящего антигероя. Его привязанность можно описать следующими словами: «Я не остановлюсь, пока не стану лучше, чем сам Дриззт До’урден».",
+                                            "У обоих персонажей есть слабости. Тика Вейлан наивна и эмоционально уязвима. Она моложе своих товарищей, и ей досадно, что они всё ещё думают о ней как о ребёнке, которого они встретили несколько лет назад. Она может даже пойти против своих принципов, если будет верить, что это позволит ей доказать свою зрелость перед друзьями. Артемис Энтрери ограждает себя от любых взаимоотношений и просто хочет, чтобы его оставили в покое."
+
                                         ],
                                         "id": "052"
                                     }
@@ -1721,26 +1733,26 @@
                     },
                     {
                         "type": "section",
-                        "name": "Inspiration",
+                        "name": "Вдохновение",
                         "page": 125,
                         "entries": [
                             "Inspiration is a rule the Dungeon Master can use to reward you for playing your character in a way that's true to his or her personality traits, ideal, bond, and flaw. By using inspiration, you can draw on your personality trait of compassion for the downtrodden to give you an edge in negotiating with the Beggar Prince. Or inspiration can let you call on your bond to the defense of your home village to push past the effect of a spell that has been laid on you.",
                             {
                                 "type": "entries",
-                                "name": "Gaining Inspiration",
+                                "name": "Когда даётся вдохновение",
                                 "page": 125,
                                 "entries": [
-                                    "Your Мастер can choose to give you inspiration for a variety of reasons. Typically, Мастерs award it when you play out your personality traits, give in to the drawbacks presented by a flaw or bond, and otherwise portray your character in a compelling way. Your Мастер will tell you how you can earn inspiration in the game. You either have inspiration or you don't\u2014you can't stockpile multiple \"inspirations\" for later use."
+                                    "Мастер может даровать вам вдохновение по нескольким причинам. Обычно вдохновение даётся за хороший отыгрыш черты характера, слабости или привязанности, или просто в драматичный момент игры. Спросите Мастера, за что он даёт вдохновение во время игры. Вы не можете накапливать вдохновения — оно или есть, или нет."
                                 ],
                                 "id": "054"
                             },
                             {
                                 "type": "entries",
-                                "name": "Using Inspiration",
+                                "name": "Использование вдохновения",
                                 "page": 125,
                                 "entries": [
-                                    "If you have inspiration, you can expend it when you make an attack roll, saving throw, or ability check. Spending your inspiration gives you advantage on that roll. Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game.",
-                                    "When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration."
+                                    "Если у вас есть вдохновение, вы можете использовать его для улучшения броска атаки, спасброска или проверки характеристики. Вы совершаете бросок с преимуществом.",
+                                    "Кроме того, если у вас есть вдохновение, вы можете наградить другого игрока за хороший отыгрыш, реализацию хитроумного решения или просто за что-то захватывающее. Когда другой персонаж делает то, что делает сюжет увлекательным или интересным, вы можете передать ему своё вдохновение."
                                 ],
                                 "id": "055"
                             }
@@ -1749,67 +1761,65 @@
                     },
                     {
                         "type": "section",
-                        "name": "Backgrounds",
+                        "name": "Предыстории",
                         "page": 125,
                         "entries": [
-                            "Every story has a beginning. Your character's background reveals where you came from, how you became an adventurer, and your place in the world. Your fighter might have been a courageous knight or a grizzled soldier. Your wizard could have been a sage or an artisan. Your rogue might have gotten by as a guild thief or commanded audiences as a jester.",
-                            "Choosing a background provides you with important story cues about your character's identity. The most important question to ask about your background is what changed? Why did you stop doing whatever your background describes and start adventuring? Where did you get the money to purchase your starting gear, or, if you come from a wealthy background, why don't you have more money? How did you learn the skills of your class? What sets you apart from ordinary people who share your background?",
-                            "The sample backgrounds in this chapter provide both concrete benefits (features, proficiencies, and languages) and roleplaying suggestions.",
+                            "Каждая история имеет своё начало. Истоки истории вашего персонажа могут описывать, почему он выбрал дорогу приключений, и как он стал тем, кем является. Ваш воин может быть благородным рыцарем или седым суровым солдатом. Ваш волшебник может быть мудрецом или ремесленником. Ваш плут может быть агентом гильдии воров или замаскированным шутом.",
+                            "Выбор предыстории предоставляет вам важные сюжетные элементы в самобытности вашего персонажа. Что изменилось в жизни вашего персонажа после предыстории? Что заставило бросить вашу деятельность и отправиться на поиски приключений? Где вы взяли деньги на покупку своего снаряжения, или, если у вас предыстория богача, почему у вас нет больше денег? Как вы узнали навыки своего класса? Что отличает вас от обычных людей, которые имеют такую же предысторию?",
+                            "Образцы предысторий, описанных в этой главе, предоставляют как конкретные преимущества (умения, владения и дополнительные языки), так и рекомендации к отыгрышу.",
                             {
                                 "type": "entries",
-                                "name": "Proficiencies",
+                                "name": "Владения",
                                 "page": 125,
                                 "entries": [
-                                    "Each background gives a character proficiency in two skills. Skills are described in chapter 7.",
-                                    "In addition, most backgrounds give a character proficiency with one or more tools. Tools and tool proficiencies are detailed in chapter 5.",
-                                    "If a character would gain the same proficiency from two different sources, he or she can choose a different proficiency of the same kind (skill or tool) instead."
+                                    "Каждая предыстория даёт вашему персонажу владение двумя навыками. Навыки описаны в главе 7.",
+                                    "Кроме того, большинство предысторий даёт персонажу владение одним или несколькими инструментами. Инструменты и владение ими описаны в главе 5.",
+                                    "Если персонаж получает владение одним и тем же из двух разных источников, он может выбрать другое владение того же вида (навыком или инструментом)."
                                 ],
                                 "id": "057"
                             },
                             {
                                 "type": "entries",
-                                "name": "Languages",
+                                "name": "Языки",
                                 "page": 125,
                                 "entries": [
-                                    "Some backgrounds also allow characters to learn additional languages beyond those given by race. See \"Languages\" earlier in this chapter."
+                                    "Некоторые предыстории также дают вам возможность выучить языки в дополнение к тем, которые даёт ваша раса. Смотрите раздел «Языки» выше в этой главе."
                                 ],
                                 "id": "058"
                             },
                             {
                                 "type": "entries",
-                                "name": "Equipment",
+                                "name": "Снаряжение",
                                 "page": 125,
                                 "entries": [
-                                    "Each background provides a package of starting equipment. If you use the optional rule from chapter 5 to spend coin on gear, you do not receive the starting equipment from your background."
+                                    "Каждая предыстория подразумевает владение некоторым имуществом. Если вы используете опциональное правило из главы 5, и приобретаете начальное снаряжение за золото, вы не получаете начальное снаряжение от предыстории."
                                 ],
                                 "id": "059"
                             },
                             {
                                 "type": "entries",
-                                "name": "Suggested Characteristics",
+                                "name": "Персонализация",
                                 "page": 125,
                                 "entries": [
-                                    "A background contains suggested personal characteristics based on your background.",
-                                    "You can pick characteristics, roll dice to determine them randomly, or use the suggestions as inspiration for characteristics of your own creation."
+                                    "Каждая предыстория имеет набор персональных качеств, основанных на ней. Вы можете выбрать их самостоятельно, бросить кость, чтобы определить их случайно, или использовать в качестве рекомендаций, чтобы создать собственные."
                                 ],
                                 "id": "05a"
                             },
                             {
                                 "type": "entries",
-                                "name": "Customizing a Background",
+                                "name": "Собственная предыстория",
                                 "page": 125,
                                 "entries": [
-                                    "You might want to tweak some of the features of a background so it better fits your character or the campaign setting. To customize a background, you can replace one feature with any other one, choose any two skills, and choose a total of two tool proficiencies or languages from the sample backgrounds. You can either use the equipment package from your background or spend coin on gear as described in chapter 5. (If you spend coin, you can't also take the equipment package suggested for your class.) Finally, choose two personality traits, one ideal, one bond, and one flaw.",
-                                    "If you can't find a feature that matches your desired background, work with your Мастер to create one."
+                                    "Возможно, вы захотите изменить некоторые особенности предыстории, чтобы они лучше подходили вашему персонажу или игровому миру. Для создания собственной предыстории вы можете изменить одно умение на любое другое, выбрать два любых навыка и выбрать владение инструментами и языками, чтобы в сумму их было не больше двух, из образцов других предысторий. Вы можете взять набор снаряжения из выбранной предыстории или потратить золото для закупки снаряжения, как сказано в главе 5 (если вы покупаете снаряжение за золото, то уже не получаете начальное снаряжение, даруемое для вашего класса). И наконец, выберите две черты характера, один идеал, одну привязанность и одну слабость. Если вы не можете выбрать умение предыстории, которое подходит именно вам, посоветуйтесь с Мастером и создайте свою собственную."
                                 ],
                                 "id": "05b"
                             },
                             {
                                 "type": "inset",
-                                "name": "Tika and Artemis: Backgrounds",
+                                "name": "Тика и Артемис: Предыстории",
                                 "page": 125,
                                 "entries": [
-                                    "Tika Waylan and Artemis Entreri both lived their earliest years as street urchins. Tika's later career as a barmaid didn't really change her, so she might choose the urchin background, gaining proficiency in the {@skill Sleight of Hand} and {@skill Stealth} skills, and learning the tools of the thieving trade. Artemis is more defined by his criminal background, giving him skills in {@skill Deception} and {@skill Stealth}, as well as proficiency with the tools of thievery and poison."
+                                    "И Тика Вейлан и Артемис Энтрери провели свои детские годы как беспризорники. Позже Тика подрабатывала в баре, но это не изменило её привычек, что даёт ей владение навыками Ловкость рук и Скрытность, а также владение воровскими инструментами. Артемис пошёл по пути преступности, что даёт ему владение навыками Обман и Скрытность, а также владение воровскими инструментами и инструментами отравителя."
                                 ],
                                 "id": "05c"
                             }
@@ -1838,7 +1848,7 @@
                             "You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing. You might have been equipped with a weapon, armor, and a backpack as part of military service. You might even have stolen your gear. A weapon could be a family heirloom, passed down from generation to generation until your character finally took up the mantle and followed in an ancestor's adventurous footsteps.",
                             {
                                 "type": "table",
-                                "caption": "Starting Wealth by Class",
+                                "caption": "Начальное богатство",
                                 "colLabels": [
                                     "Class",
                                     "Funds"
@@ -1849,52 +1859,52 @@
                                 ],
                                 "rows": [
                                     [
-                                        "Barbarian",
-                                        "{@dice 2d4×10|2d4 × 10|Barbarian Starting Wealth} gp"
+                                        "Бард",
+                                        "{@dice 5d4×10|5к4 × 10|Бард - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Bard",
-                                        "{@dice 5d4×10|5d4 × 10|Bard Starting Wealth} gp"
+                                        "Варвар",
+                                        "{@dice 2d4×10|2к4 × 10|Варвар - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Cleric",
-                                        "{@dice 5d4×10|5d4 × 10|Cleric Starting Wealth} gp"
+                                        "Воин",
+                                        "{@dice 5d4×10|5к4 × 10|Воин - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Druid",
-                                        "{@dice 2d4×10|2d4 × 10|Druid Starting Wealth} gp"
+                                        "Волшебник",
+                                        "{@dice 4d4×10|4к4 × 10|Волшебник - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Fighter",
-                                        "{@dice 5d4×10|5d4 × 10|Fighter Starting Wealth} gp"
+                                        "Друид",
+                                        "{@dice 2d4×10|2к4 × 10|Друид - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Monk",
-                                        "{@dice 5d4|5d4|Monk Starting Wealth} gp"
+                                        "Жрец",
+                                        "{@dice 5d4×10|5к4 × 10|Жрец - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Paladin",
-                                        "{@dice 5d4×10|5d4 × 10|Paladin Starting Wealth} gp"
+                                        "Колдун",
+                                        "{@dice 4d4×10|4к4 × 10|Колдун - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Ranger",
-                                        "{@dice 5d4×10|5d4 × 10|Ranger Starting Wealth} gp"
+                                        "Монах",
+                                        "{@dice 5d4|5к4|Монах - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Rogue",
-                                        "{@dice 4d4×10|4d4 × 10|Rogue Starting Wealth} gp"
+                                        "Паладин",
+                                        "{@dice 5d4×10|5к4 × 10|Паладин - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Sorcerer",
-                                        "{@dice 3d4×10|3d4 × 10|Sorcerer Starting Wealth} gp"
+                                        "Плут",
+                                        "{@dice 4d4×10|4к4 × 10|Плут - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Warlock",
-                                        "{@dice 4d4×10|4d4 × 10|Warlock Starting Wealth} gp"
+                                        "Следопыт",
+                                        "{@dice 5d4×10|5к4 × 10|Следопыт - стартовое богатство} зм"
                                     ],
                                     [
-                                        "Wizard",
-                                        "{@dice 4d4×10|4d4 × 10|Wizard Starting Wealth} gp"
+                                        "Чародей",
+                                        "{@dice 3d4×10|3к4 × 10|Чародей - стартовое богатство} зм"
                                     ]
                                 ]
                             }
@@ -1923,14 +1933,14 @@
                                     "A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.",
                                     {
                                         "type": "table",
-                                        "caption": "Standard Exchange Rates",
+                                        "caption": "Стандартные нормы обмена",
                                         "colLabels": [
-                                            "Coin",
-                                            "cp",
-                                            "sp",
-                                            "ep",
-                                            "gp",
-                                            "pp"
+                                            "Монета",
+                                            "мм",
+                                            "см",
+                                            "эм",
+                                            "зм",
+                                            "пм"
                                         ],
                                         "colStyles": [
                                             "col-2",
@@ -1942,7 +1952,7 @@
                                         ],
                                         "rows": [
                                             [
-                                                "Copper (cp)",
+                                                "Медная (мм)",
                                                 "1",
                                                 "1/10",
                                                 "1/50",
@@ -1950,7 +1960,7 @@
                                                 "1/1,000"
                                             ],
                                             [
-                                                "Silver (sp)",
+                                                "Серебряная (см)",
                                                 "10",
                                                 "1",
                                                 "1/5",
@@ -1958,7 +1968,7 @@
                                                 "1/100"
                                             ],
                                             [
-                                                "Electrum (ep)",
+                                                "Электрумовая (эм)",
                                                 "50",
                                                 "5",
                                                 "1",
@@ -1966,7 +1976,7 @@
                                                 "1/20"
                                             ],
                                             [
-                                                "Gold (gp)",
+                                                "Золотая (зм)",
                                                 "100",
                                                 "10",
                                                 "2",
@@ -1974,7 +1984,7 @@
                                                 "1/10"
                                             ],
                                             [
-                                                "Platinum (pp)",
+                                                "Платиновая (пм)",
                                                 "1,000",
                                                 "100",
                                                 "20",
@@ -2056,12 +2066,12 @@
                                 "type": "table",
                                 "caption": "Armor",
                                 "colLabels": [
-                                    "Armor",
-                                    "Cost",
-                                    "Armor Class (AC)",
-                                    "Strength",
-                                    "Stealth",
-                                    "Weight"
+                                    "Доспех",
+                                    "Стоимость",
+                                    "Класс Доспеха (КД)",
+                                    "Сила",
+                                    "Скрытность",
+                                    "Вес"
                                 ],
                                 "colStyles": [
                                     "col-3",
@@ -2073,7 +2083,7 @@
                                 ],
                                 "rows": [
                                     [
-                                        "{@i Light Armor}",
+                                        "{@i Лёгкий доспех}",
                                         "",
                                         "",
                                         "",
@@ -2084,40 +2094,40 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item padded armor|phb|Padded}",
-                                            "5 gp",
-                                            "11 + Dex modifier",
-                                            "\u2014",
-                                            "Disadvantage",
-                                            "8 lb."
+                                            "{@item Стёганный доспех|phb-ru}",
+                                            "5 зм",
+                                            "11 + модификатор Лов",
+                                            "—",
+                                            "Помеха",
+                                            "8 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item leather armor|phb|Leather}",
-                                            "10 gp",
-                                            "11 + Dex modifier",
-                                            "\u2014",
-                                            "\u2014",
-                                            "10 lb."
+                                            "{@item Кожаный доспех|phb-ru}",
+                                            "10 зм",
+                                            "11 + модификатор Лов",
+                                            "—",
+                                            "—",
+                                            "10 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item studded leather armor|phb|Studded leather}",
-                                            "45 gp",
-                                            "12 + Dex modifier",
-                                            "\u2014",
-                                            "\u2014",
-                                            "13 lb."
+                                            "{@item Клёпаный кожаный доспех|phb-ru}",
+                                            "45 зм",
+                                            "12 + модификатор Лов",
+                                            "—",
+                                            "—",
+                                            "13 фнт."
                                         ]
                                     },
                                     [
-                                        "{@i Medium Armor}",
+                                        "{@i Средний доспех}",
                                         "",
                                         "",
                                         "",
@@ -2128,64 +2138,64 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item hide armor|phb|Hide}",
-                                            "10 gp",
-                                            "12 + Dex modifier (max 2)",
-                                            "\u2014",
-                                            "\u2014",
-                                            "12 lb."
+                                            "{@item Шкурный доспех|phb-ru}",
+                                            "10 зм",
+                                            "12 + модификатор Лов (макс. 2)",
+                                            "—",
+                                            "—",
+                                            "12 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Chain shirt|phb}",
-                                            "50 gp",
-                                            "13 + Dex modifier (max 2)",
-                                            "\u2014",
-                                            "\u2014",
-                                            "20 lb."
+                                            "{@item Кольчужный доспех|phb-ru рубаха}",
+                                            "50 зм",
+                                            "13 + модификатор Лов (макс. 2)",
+                                            "—",
+                                            "—",
+                                            "20 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Scale mail|phb}",
-                                            "50 gp",
-                                            "14 + Dex modifier (max 2)",
-                                            "\u2014",
-                                            "Disadvantage",
-                                            "45 lb."
+                                            "{@item Чешуйчатый доспех|phb-ru}",
+                                            "50 зм",
+                                            "14 + модификатор Лов (макс. 2)",
+                                            "—",
+                                            "Помеха",
+                                            "45 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Breastplate|phb}",
-                                            "400 gp",
-                                            "14 + Dex modifier (max 2)",
-                                            "\u2014",
-                                            "\u2014",
-                                            "20 lb."
+                                            "{@item Кираса|phb-ru}",
+                                            "400 зм",
+                                            "14 + модификатор Лов (макс. 2)",
+                                            "—",
+                                            "—",
+                                            "20 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item half plate armor|phb|Half plate}",
-                                            "750 gp",
-                                            "15 + Dex modifier (max 2)",
-                                            "\u2014",
-                                            "Disadvantage",
-                                            "40 lb."
+                                            "{@item Полулаты|phb-ru}",
+                                            "750 зм",
+                                            "15 + модификатор Лов (макс. 2)",
+                                            "—",
+                                            "Помеха",
+                                            "40 фнт."
                                         ]
                                     },
                                     [
-                                        "{@i Heavy Armor}",
+                                        "{@i Тяжёлый доспех}",
                                         "",
                                         "",
                                         "",
@@ -2196,52 +2206,52 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Ring mail|phb}",
-                                            "30 gp",
+                                            "{@item Колечный доспех|phb-ru}",
+                                            "30 зм",
                                             "14",
-                                            "\u2014",
-                                            "Disadvantage",
-                                            "40 lb."
+                                            "—",
+                                            "Помеха",
+                                            "40 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Chain mail|phb}",
-                                            "75 gp",
-                                            "16",
-                                            "Str 13",
-                                            "Disadvantage",
-                                            "55 lb."
+                                            "{@item Кольчуга доспех|phb-ru}",
+                                            "75 зм",
+                                            "16 Сил",
+                                            "13",
+                                            "Помеха",
+                                            "55 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item splint armor|phb|Splint}",
-                                            "200 gp",
-                                            "17",
-                                            "Str 15",
-                                            "Disadvantage",
-                                            "60 lb."
+                                            "{@item Наборный доспех|phb-ru}",
+                                            "200 зм",
+                                            "17 Сил",
+                                            "15",
+                                            "Помеха",
+                                            "60 фнт."
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item plate armor|phb|Plate}",
-                                            "1,500 gp",
-                                            "18",
-                                            "Str 15",
-                                            "Disadvantage",
-                                            "65 lb."
+                                            "{@item Латы|phb-ru}",
+                                            "1500 зм",
+                                            "18 Сил",
+                                            "15",
+                                            "Помеха",
+                                            "65 фнт."
                                         ]
                                     },
                                     [
-                                        "{@i Shield}",
+                                        "{@i Щит}",
                                         "",
                                         "",
                                         "",
@@ -2252,12 +2262,12 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Shield|phb}",
-                                            "10 gp",
+                                            "{@item Щит|phb-ru}",
+                                            "10 зм",
                                             "+2",
-                                            "\u2014",
-                                            "\u2014",
-                                            "6 lb."
+                                            "—",
+                                            "—",
+                                            "6 фнт."
                                         ]
                                     }
                                 ]
@@ -2509,11 +2519,11 @@
                                     },
                                     {
                                         "type": "table",
-                                        "caption": "Donning and Doffing Armor",
+                                        "caption": "Надевание и снятие доспеха",
                                         "colLabels": [
-                                            "Category",
-                                            "Don",
-                                            "Doff"
+                                            "Вид",
+                                            "Надевание",
+                                            "Снятие"
                                         ],
                                         "colStyles": [
                                             "col-4",
@@ -2522,24 +2532,24 @@
                                         ],
                                         "rows": [
                                             [
-                                                "Light Armor",
-                                                "1 minute",
-                                                "1 minute"
+                                                "Лёгкий доспех",
+                                                "1 минута",
+                                                "1 минута"
                                             ],
                                             [
-                                                "Medium Armor",
-                                                "5 minutes",
-                                                "1 minute"
+                                                "Средний доспех",
+                                                "5 минут",
+                                                "1 минута"
                                             ],
                                             [
-                                                "Heavy Armor",
-                                                "10 minutes",
-                                                "5 minutes"
+                                                "Тяжёлый доспех",
+                                                "10 минут",
+                                                "5 минут"
                                             ],
                                             [
-                                                "Shield",
-                                                "1 action",
-                                                "1 action"
+                                                "Щит",
+                                                "1 действие",
+                                                "1 действие"
                                             ]
                                         ]
                                     }
@@ -2561,13 +2571,13 @@
                             "The Weapons table shows the most common weapons used in the worlds of D&D, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance.",
                             {
                                 "type": "table",
-                                "caption": "Weapons",
+                                "caption": "Оружие",
                                 "colLabels": [
-                                    "Name",
-                                    "Cost",
-                                    "Damage",
-                                    "Weight",
-                                    "Properties"
+                                    "Название",
+                                    "Стоимость",
+                                    "Урон",
+                                    "Вес",
+                                    "Свойства"
                                 ],
                                 "colStyles": [
                                     "col-4",
@@ -2578,7 +2588,7 @@
                                 ],
                                 "rows": [
                                     [
-                                        "{@i Simple Melee Weapons}",
+                                        "{@i Простое рукопашное оружие}",
                                         "",
                                         "",
                                         "",
@@ -2588,114 +2598,74 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Club|phb}",
-                                            "1 sp",
-                                            "1d4 bludgeoning",
-                                            "2 lb.",
-                                            "Light"
+                                            "{@item Боевой посох|phb-ru}", "2 см", "1к6 дробящий", "4 фнт.", "Универсальное (1к8)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Dagger|phb}",
-                                            "2 gp",
-                                            "1d4 piercing",
-                                            "1 lb.",
-                                            "Finesse, light, thrown (range 20/60)"
+                                            "{@item Булава|phb-ru}", "5 зм", "1к6 дробящий", "4 фнт.", "—"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Greatclub|phb}",
-                                            "2 sp",
-                                            "1d8 bludgeoning",
-                                            "10 lb.",
-                                            "Two-handed"
+                                            "{@item Дубинка|phb-ru}", "1 см", "1к4 дробящий", "2 фнт.", "Лёгкое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Handaxe|phb}",
-                                            "5 gp",
-                                            "1d6 slashing",
-                                            "2 lb.",
-                                            "Light, thrown (range 20/60)"
+                                            "{@item Кинжал|phb-ru}", "2 зм", "1к4 колющий", "1 фнт.", "Лёгкое, метательное (дис.я 20/60), фехтовальное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Javelin|phb}",
-                                            "5 sp",
-                                            "1d6 piercing",
-                                            "2 lb.",
-                                            "Thrown (range 30/120)"
+                                            "{@item Копьё|phb-ru}", "1 зм", "1к6 колющий", "3 фнт.", "Метательное (дис. 20/60), универсальное (1к8)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Light hammer|phb}",
-                                            "2 gp",
-                                            "1d4 bludgeoning",
-                                            "2 lb.",
-                                            "Light, thrown (range 20/60)"
+                                            "{@item Лёгкий молот|phb-ru}", "2 зм", "1к4 дробящий", "2 фнт.", "Лёгкое, метательное (дис. 20/60)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Mace|phb}",
-                                            "5 gp",
-                                            "1d6 bludgeoning",
-                                            "4 lb.",
-                                            "\u2014"
+                                            "{@item Метательное копьё|phb-ru}", "5 см", "1к6 колющий", "2 фнт.", "Метательное (дис. 30/120)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Quarterstaff|phb}",
-                                            "2 sp",
-                                            "1d6 bludgeoning",
-                                            "4 lb.",
-                                            "Versatile (1d8)"
+                                            "{@item Палица|phb-ru}", "2 см", "1к8 дробящий", "10 фнт.", "Двуручное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Sickle|phb}",
-                                            "1 gp",
-                                            "1d4 slashing",
-                                            "2 lb.",
-                                            "Light"
+                                            "{@item Ручной топор|phb-ru}", "5 зм", "1к6 рубящий", "2 фнт.", "Лёгкое, метательное (дис. 20/60)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Spear|phb}",
-                                            "1 gp",
-                                            "1d6 piercing",
-                                            "3 lb.",
-                                            "Thrown (range 20/60), versatile (1d8)"
+                                            "{@item Серп|phb-ru}", "1 зм", "1к4 рубящий", "2 фнт.", "Лёгкое"
                                         ]
                                     },
                                     [
-                                        "{@i Simple Ranged Weapons}",
+                                        "{@i Простое дальнобойное оружие}",
                                         "",
                                         "",
                                         "",
@@ -2705,48 +2675,32 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item light crossbow|phb|Crossbow, light}",
-                                            "25 gp",
-                                            "1d8 piercing",
-                                            "5 lb.",
-                                            "Ammunition (range 80/320), loading, two-handed"
+                                            "{@item Арбалет|phb-ru}, лёгкий", "25 зм", "1к8 колющий", "5 фнт.", "Боеприпас (дис. 80/320), двуручное, перезарядка"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Dart|phb}",
-                                            "5 cp",
-                                            "1d4 piercing",
-                                            "1/4 lb.",
-                                            "Finesse, thrown (range 20/60)"
+                                            "{@item Дротик|phb-ru}", "5 мм", "1к4 колющий", "1/4 фнт.", "Метательное (дис. 20/60), фехтовальное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Shortbow|phb}",
-                                            "25 gp",
-                                            "1d6 piercing",
-                                            "2 lb.",
-                                            "Ammunition (range 80/320), two-handed"
+                                            "{@item Короткий лук|phb-ru}", "25 зм", "1к6 колющий", "2 фнт.", "Боеприпас (дис. 80/320), двуручное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Sling|phb}",
-                                            "1 sp",
-                                            "1d4 bludgeoning",
-                                            "\u2014",
-                                            "Ammunition (range 30/120)"
+                                            "{@item Праща|phb-ru}", "1 см", "1к4 дробящий", "—", "Боеприпас (дис. 30/120)"
                                         ]
                                     },
                                     [
-                                        "{@i Martial Melee Weapons}",
+                                        "{@i Воинское рукопашное оружие}",
                                         "",
                                         "",
                                         "",
@@ -2756,202 +2710,130 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Battleaxe|phb}",
-                                            "10 gp",
-                                            "1d8 slashing",
-                                            "4 lb.",
-                                            "Versatile (1d10)"
+                                            "{@item Алебарда|phb-ru}", "20 зм", "1к10 рубящий", "6 фнт.", "Двуручное, досягаемость, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Flail|phb}",
-                                            "10 gp",
-                                            "1d8 bludgeoning",
-                                            "2 lb.",
-                                            "\u2014"
+                                            "{@item Боевая кирка|phb-ru}", "5 зм", "1к8 колющий", "2 фнт.", "—"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Glaive|phb}",
-                                            "20 gp",
-                                            "1d10 slashing",
-                                            "6 lb.",
-                                            "Heavy, reach, two-handed"
+                                            "{@item Боевой молот|phb-ru}", "15 зм", "1к8 дробящий", "2 фнт.", "Универсальное (1к10)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Greataxe|phb}",
-                                            "30 gp",
-                                            "1d12 slashing",
-                                            "7 lb.",
-                                            "Heavy, two-handed"
+                                            "{@item Боевой топор|phb-ru}", "10 зм", "1к8 рубящий", "4 фнт.", "Универсальное (1к10)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Greatsword|phb}",
-                                            "50 gp",
-                                            "2d6 slashing",
-                                            "6 lb.",
-                                            "Heavy, two-handed"
+                                            "{@item Глефа|phb-ru}", "20 зм", "1к10 рубящий", "6 фнт.", "Двуручное, досягаемость, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Halberd|phb}",
-                                            "20 gp",
-                                            "1d10 slashing",
-                                            "6 lb.",
-                                            "Heavy, reach, two-handed"
+                                            "{@item Двуручный меч|phb-ru}", "50 зм", "2к6 рубящий", "6 фнт.", "Двуручное, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Lance|phb}",
-                                            "10 gp",
-                                            "1d12 piercing",
-                                            "6 lb.",
-                                            "Reach, special"
+                                            "{@item Длинное копьё|phb-ru}", "10 зм", "1к12 колющий", "6 фнт.", "Досягаемость, особое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Longsword|phb}",
-                                            "15 gp",
-                                            "1d8 slashing",
-                                            "3 lb.",
-                                            "Versatile (1d10)"
+                                            "{@item Длинный меч|phb-ru}", "15 зм", "1к8 рубящий", "3 фнт.", "Универсальное (1к10)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Maul|phb}",
-                                            "10 gp",
-                                            "2d6 bludgeoning",
-                                            "10 lb.",
-                                            "Heavy, two-handed"
+                                            "{@item Кнут|phb-ru}", "2 зм", "1к4 рубящий", "3 фнт.", "Досягаемость, фехтовальное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Morningstar|phb}",
-                                            "15 gp",
-                                            "1d8 piercing",
-                                            "4 lb.",
-                                            "\u2014"
+                                            "{@item Короткий меч|phb-ru}", "10 зм", "1к6 колющий", "2 фнт.", "Лёгкое, фехтовальное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Pike|phb}",
-                                            "5 gp",
-                                            "1d10 piercing",
-                                            "18 lb.",
-                                            "Heavy, reach, two-handed"
+                                            "{@item Молот|phb-ru}", "10 зм", "2к6 дробящий", "10 фнт.", "Двуручное, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Rapier|phb}",
-                                            "25 gp",
-                                            "1d8 piercing",
-                                            "2 lb.",
-                                            "Finesse"
+                                            "{@item Моргенштерн|phb-ru}", "15 зм", "1к8 колющий", "4 фнт.", "—"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Scimitar|phb}",
-                                            "25 gp",
-                                            "1d6 slashing",
-                                            "3 lb.",
-                                            "Finesse, light"
+                                            "{@item Пика|phb-ru}", "5 зм", "1к10 колющий", "18 фнт.", "Двуручное, досягаемость, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Shortsword|phb}",
-                                            "10 gp",
-                                            "1d6 piercing",
-                                            "2 lb.",
-                                            "Finesse, light"
+                                            "{@item Рапира|phb-ru}", "25 зм", "1к8 колющий", "2 фнт.", "Фехтовальное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Trident|phb}",
-                                            "5 gp",
-                                            "1d6 piercing",
-                                            "4 lb.",
-                                            "Thrown (range 20/60), versatile (1d8)"
+                                            "{@item Секира|phb-ru}", "30 зм", "1к12 рубящий", "7 фнт.", "Двуручное, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item War pick|phb}",
-                                            "5 gp",
-                                            "1d8 piercing",
-                                            "2 lb.",
-                                            "\u2014"
+                                            "{@item Скимитар|phb-ru}", "25 зм", "1к6 рубящий", "3 фнт.", "Лёгкое, фехтовальное"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Warhammer|phb}",
-                                            "15 gp",
-                                            "1d8 bludgeoning",
-                                            "2 lb.",
-                                            "Versatile (1d10)"
+                                            "{@item Трезубец|phb-ru}", "5 зм", "1к6 колющий", "4 фнт.", "Метательное (дис. 20/60), универсальное (1к8)"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Whip|phb}",
-                                            "2 gp",
-                                            "1d4 slashing",
-                                            "3 lb.",
-                                            "Finesse, reach"
+                                            "{@item Цеп|phb-ru}", "10 зм", "1к8 дробящий", "2 фнт.", "—"
                                         ]
                                     },
                                     [
-                                        "{@i Martial Ranged Weapons}",
+                                        "{@i Воинское дальнобойное оружие}",
                                         "",
                                         "",
                                         "",
@@ -2961,55 +2843,35 @@
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Blowgun|phb}",
-                                            "10 gp",
-                                            "1 piercing",
-                                            "1 lb.",
-                                            "Ammunition (range 25/100), loading"
+                                            "{@item Арбалет|phb-ru}, ручной", "75 зм", "1к6 колющий", "3 фнт.", "Боеприпас (дис. 30/120), лёгкое, перезарядка"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item hand crossbow|phb|Crossbow, hand}",
-                                            "75 gp",
-                                            "1d6 piercing",
-                                            "3 lb.",
-                                            "Ammunition (range 30/120), light, loading"
+                                            "{@item Арбалет|phb-ru}, тяжёлый", "50 зм", "1к10 колющий", "18 фнт.", "Боеприпас (дис. 100/400), двуручное, перезарядка, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item heavy crossbow|phb|Crossbow, heavy}",
-                                            "50 gp",
-                                            "1d10 piercing",
-                                            "18 lb.",
-                                            "Ammunition (range 100/400), heavy, loading, two-handed"
+                                            "{@item Длинный лук|phb-ru}", "50 зм", "1к8 колющий", "2 фнт.", "Боеприпас (дис. 150/600), двуручное, тяжёлое"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Longbow|phb}",
-                                            "50 gp",
-                                            "1d8 piercing",
-                                            "2 lb.",
-                                            "Ammunition (range 150/600), heavy, two-handed"
+                                            "{@item Духовая трубка|phb-ru}", "10 зм", "1 колющий", "1 фнт.", "Боеприпас (дис. 25/100), перезарядка"
                                         ]
                                     },
                                     {
                                         "type": "row",
                                         "style": "row-indent-first",
                                         "row": [
-                                            "{@item Net|phb}",
-                                            "1 gp",
-                                            "\u2014",
-                                            "3 lb.",
-                                            "Special, thrown (range 5/15)"
+                                            "{@item Сеть|phb-ru}", "1 зм", "—", "3 фнт.", "Метательное (дис. 5/15), особое"
                                         ]
                                     }
                                 ]
@@ -3209,6 +3071,7 @@
                             {
                                 "type": "table",
                                 "caption": "Adventuring Gear",
+                                "columns": 3,
                                 "colLabels": [
                                     "Item",
                                     "Cost",
@@ -9195,8 +9058,8 @@
                                     "{@spell Detect Magic}",
                                     "{@spell Disguise Self}",
                                     "{@spell Dissonant Whispers}",
-                                    "{@spell Faerie Fire}",
                                     "{@spell Feather Fall}",
+                                    "{@spell Faerie Fire}",
                                     "{@spell Healing Word}",
                                     "{@spell Heroism}",
                                     "{@spell Identify}",
