@@ -1,0 +1,15 @@
+{
+    "type": "module",
+    "name": "5et-ru",
+    "version": "1.0.0",
+    "description": "Framework for storing D&D 5e content in an easily convertible format, specifically 5eTools.",
+    "main": ".eslintrc.js",
+    "scripts": {
+        "test": "node ./src/build.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-fetch": "^3.2.3"
+    }
+}
