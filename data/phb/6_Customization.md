@@ -39,6 +39,18 @@
 Бард | Харизма 13
 Колдун | Харизма 13
 
+\get.class barbarian, _ => _.addRequirements({str:13})
+\get.class fighter, _ => _.addRequirements({or:[{str:13, dex:13}]})
+\get.class rogue, _ => _.addRequirements({dex:13})
+\get.class monk, _ => _.addRequirements({dex:13, wis:13})
+\get.class paladin, _ => _.addRequirements({str:13, cha:13})
+\get.class ranger, _ => _.addRequirements({str:13, wis:13})
+\get.class wizard, _ => _.addRequirements({int:13})
+\get.class cleric, _ => _.addRequirements({wis:13})
+\get.class druid, _ => _.addRequirements({wis:13})
+\get.class sorcerer, _ => _.addRequirements({cha:13})
+\get.class bard, _ => _.addRequirements({cha:13})
+\get.class warlock, _ => _.addRequirements({cha:13})
 
 ### Опыт
 Количество опыта, необходимого для получения нового уровня, зависит от уровня персонажа, а не от уровня в каком-то одном классе. Таким образом, если вы жрец 6/воин 1, вам нужно набрать опыта, необходимого для получения 8 уровня, прежде чем сможете получить 2 уровень воина или 7 уровень жреца.
