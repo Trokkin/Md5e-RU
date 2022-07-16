@@ -54,6 +54,10 @@
 
 #### Снаряжение
 Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:
+\equipment {a: [{item: mace}], b: [{item:warhammer}]}
+\equipment {a: [armor.scale_mail], b: [armor.leather], c: [armor.chain_mail]}
+\equipment {a: [packs.priest], b: [packs.explorer]}
+\equipment {_: [armor.shield], [{item:holy_symbol}]}
 • а) булава или б) боевой молот (если владеете)
 • а) чешуйчатый доспех, б) кожаный доспех или в) кольчуга (если владеете)
 • а) лёгкий арбалет и 20 болтов или б) любое простое оружие
