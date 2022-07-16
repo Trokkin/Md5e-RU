@@ -1,15 +1,22 @@
 {
-    "type": "module",
-    "name": "5et-ru",
-    "version": "1.0.0",
-    "description": "Framework for storing D&D 5e content in an easily convertible format, specifically 5eTools.",
-    "main": ".eslintrc.js",
-    "scripts": {
-        "test": "node ./src/build.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "node-fetch": "^3.2.3"
-    }
+  "type": "module",
+  "name": "5et-ru",
+  "version": "0.0.1",
+  "description": "Russian translation of D&D 5e content",
+  "main": ".eslintrc.cjs",
+  "scripts": {
+    "test": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trokkin/5eT-RU.git"
+  },
+  "author": "Trokkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trokkin/5eT-RU/issues"
+  },
+  "homepage": "https://github.com/Trokkin/5eT-RU#readme",
+  "dependencies": {
+  }
 }
