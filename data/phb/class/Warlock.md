@@ -39,18 +39,6 @@
 
 Во-вторых, выберите предысторию «шарлатан». В- третьих, выберите заговоры леденящее прикосновение и мистический заряд, а также заклинания 1 уровня ведьмин снаряд и очарование личности.
 
-## Классовые умения
-Колдуны обладают следующими классовыми умениями.
-
-#### Хиты
-\hitdice 1d8
-
-#### Владение
-\proficient.armor light
-\proficient.weapon simple
-\proficient.saves wis, cha
-\proficient.skill {choose: {count:2, from: [investigation, intimidation, history, arcana, deception, nature, religion]}}
-
 ###
 \table.caption Колдун
 Уровень | Бонус мастерства | Умения | Известные заговоры | Известные заклинания | Ячейки заклинаний | Уровень ячеек | Известные воззвания
@@ -75,14 +63,25 @@
 18 | +6 | - | 4 | 14 | 4 | 5 | 8
 19 | +6 | Увеличение характеристик | 4 | 15 | 4 | 5 | 8
 20 | +6 | Таинственный мастер | 4 | 15 | 4 | 5 | 8
+## Классовые умения
+Колдуны обладают следующими классовыми умениями.
+
+#### Хиты
+\hitdice 1d8
+
+#### Владение
+\proficient.armor light
+\proficient.weapon simple
+\proficient.saves wis, cha
+\proficient.skill {choose: {count:2, from: [investigation, intimidation, history, arcana, deception, nature, religion]}}
 
 \page 107, "ЧАСТЬ 1 : КЛАССЫ"
 #### Снаряжение
 Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:
-\equipment {a: [item: light.crossbow] and [{item: crossbow.bolts, quantity:20}], b: [type.weaponSimple]}
-\equipment {a: [item: component.pouch], b: [item: arcane.focus]}
-\equipment {a: [packs.scholar,], b: [packs.dungeoneer]
-\equipment {_: [item: leather.armor, [type.weaponSimple], {item: dagger, quantity:2}]}
+\equipment {a: [{item: light_crossbow}, {item: crossbow_bolt, quantity:20}], b: [type.weaponSimple]}
+\equipment {a: [{item: component_pouch}], b: [{item: arcane_focus}]}
+\equipment {a: [packs.scholar], b: [packs.dungeoneer]}
+\equipment {_: [{item: armor.leather}, type.weaponSimple, {item: dagger, quantity:2}]}
 • а) лёгкий арбалет и 20 болтов или б) любое простое оружие
 • а) мешочек с компонентами или б) магическая фокусировка
 • а) набор учёного или б) набор исследователя подземелий
