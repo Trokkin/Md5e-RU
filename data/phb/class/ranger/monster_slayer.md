@@ -8,11 +8,11 @@
 
 Уровень | Заклинание
 ---|---
-3 | [защита от зла и добра](protection_from_evil_and_good)
-5 | [область истины](zone_of_truth)
-9 | [магический круг](magic_circle)
-13 | [изгнание](banishment)
-17 | [удержание чудовища](hold_monster)
+3 | [защита от зла и добра](spell.protection_from_evil_and_good)
+5 | [область истины](spell.zone_of_truth)
+9 | [магический круг](spell.magic_circle)
+13 | [изгнание](spell.banishment)
+17 | [удержание чудовища](spell.hold_monster)
 
 #### Охотничья чувства
 \feature 3

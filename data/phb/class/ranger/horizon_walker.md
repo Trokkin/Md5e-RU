@@ -7,11 +7,11 @@
 
 Уровень | Заклинание
 ---|---
-3 | [защита от зла и добра](protection_from_evil_and_good)
-5 | [туманный шаг](misty_step)
-9 | [ускорение](haste)
-13 | [изгнание](banishment)
-17 | [круг телепортации](teleportation_circle)
+3 | [защита от зла и добра](spell.protection_from_evil_and_good)
+5 | [туманный шаг](spell.misty_step)
+9 | [ускорение](spell.haste)
+13 | [изгнание](spell.banishment)
+17 | [круг телепортации](spell.teleportation_circle)
 
 #### Обнаружить портал
 \feature 3
