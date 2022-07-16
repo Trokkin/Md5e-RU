@@ -46,7 +46,6 @@
 \spells.levels pact
 \spells.cantrips 2, [4, 10]
 \spells.known [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15 ]
-
 \options.add "Воззвания", [ 0, 2, 2, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8 ]
 
 #### Хиты
@@ -64,7 +63,7 @@
 \equipment {a: [{item: light_crossbow}, {item: crossbow_bolt, quantity:20}], b: [type.weaponSimple]}
 \equipment {a: [{item: component_pouch}], b: [{item: arcane_focus}]}
 \equipment {a: [packs.scholar], b: [packs.dungeoneer]}
-\equipment {_: [{item: armor.leather}, type.weaponSimple, {item: dagger, quantity:2}]}
+\equipment {_: [armor.leather, type.weaponSimple, {item: dagger, quantity:2}]}
 • а) лёгкий арбалет и 20 болтов или б) любое простое оружие
 • а) мешочек с компонентами или б) магическая фокусировка
 • а) набор учёного или б) набор исследователя подземелий
