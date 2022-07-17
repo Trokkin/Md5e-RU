@@ -6,11 +6,11 @@
 \table.caption Заклинания домена природы
 Уровень заклинания | Заклинания
 --- | ---
-1 | [дружба с животными](animal_friendship), [разговор с животными](speak_with_animals)
-3 | [дубовая кора](barkskin), [шипы](spike_growth)
-5 | [рост растений](plant_growth), [стена ветров](wind_wall)
-7 | [подчинение зверя](dominate_beast), [цепкая лоза](grasping_vine)
-9 | [древесный путь](tree_stride), [нашествие насекомых](insect_plague)
+1 | [дружба с животными](spell.animal_friendship), [разговор с животными](spell.speak_with_animals)
+3 | [дубовая кора](spell.barkskin), [шипы](spell.spike_growth)
+5 | [рост растений](spell.plant_growth), [стена ветров](spell.wind_wall)
+7 | [подчинение зверя](spell.dominate_beast), [цепкая лоза](spell.grasping_vine)
+9 | [древесный путь](spell.tree_stride), [нашествие насекомых](spell.insect_plague)
 
 \page 63, "ЧАСТЬ 1 : КЛАССЫ"
 #### Послушник природы

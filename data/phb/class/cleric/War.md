@@ -7,11 +7,11 @@
 \table.caption Заклинания домена войны
 Уровень заклинания | Заклинания
 --- | ---
-1 | [божественное благоволение](divine_favor), [щит веры](shield_of_faith)
-3 | [божественное оружие](spiritual_weapon), [магическое оружие](magic_weapon)
-5 | [духовные стражи](spirit_guardians), [мантия крестоносца](crusader’s_mantle)
-7 | [каменная кожа](stoneskin), [свобода перемещения](freedom_of_movement)
-9 | [небесный огонь](flame_strike), [удержание чудовища](hold_monster)
+1 | [божественное благоволение](spell.divine_favor), [щит веры](spell.shield_of_faith)
+3 | [божественное оружие](spell.spiritual_weapon), [магическое оружие](spell.magic_weapon)
+5 | [духовные стражи](spell.spirit_guardians), [мантия крестоносца](spell.crusader’s_mantle)
+7 | [каменная кожа](spell.stoneskin), [свобода перемещения](spell.freedom_of_movement)
+9 | [небесный огонь](spell.flame_strike), [удержание чудовища](spell.hold_monster)
 
 #### Бонусное владение
 \feature 1

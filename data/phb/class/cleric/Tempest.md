@@ -7,11 +7,11 @@
 \table.caption Заклинания домена бури
 Уровень заклинания | Заклинания
 --- | ---
-1 | [волна грома](thunderwave), [туманное облако](fog_cloud)
-3 | [дребезги](shatter), [порыв ветра](gust of wind)
-5 | [метель ](sleet_storm), [призыв молнии](call lightning)
-7 | [власть над водами](control_water), [град](ice_storm)
-9 | [нашествие насекомых](insect_plague), [разрушительная волна](destructive_wave)
+1 | [волна грома](spell.thunderwave), [туманное облако](spell.fog_cloud)
+3 | [дребезги](spell.shatter), [порыв ветра](spell.gust of wind)
+5 | [метель ](spell.sleet_storm), [призыв молнии](spell.call lightning)
+7 | [власть над водами](spell.control_water), [град](spell.ice_storm)
+9 | [нашествие насекомых](spell.insect_plague), [разрушительная волна](spell.destructive_wave)
 
 #### Бонусное владение
 \feature 1

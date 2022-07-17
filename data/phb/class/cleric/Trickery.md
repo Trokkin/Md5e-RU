@@ -7,11 +7,11 @@
 \table.caption Заклинания домена обмана
 Уровень заклинания | Заклинания
 --- | ---
-1 | [маскировка](disguise_self), [очарование личности](charm_person)
-3 | [бесследное передвижение](pass_without_trace), [отражения](mirror_image)
-5 | [мерцание](blink), [рассеивание магии](dispel_magic)
-7 | [переносящая дверь](dimension_door), [превращение](polymorph)
-9 | [изменение памяти](modify_memory), [подчинение личности](dominate_person)
+1 | [маскировка](spell.disguise_self), [очарование личности](spell.charm_person)
+3 | [бесследное передвижение](spell.pass_without_trace), [отражения](spell.mirror_image)
+5 | [мерцание](spell.blink), [рассеивание магии](spell.dispel_magic)
+7 | [переносящая дверь](spell.dimension_door), [превращение](spell.polymorph)
+9 | [изменение памяти](spell.modify_memory), [подчинение личности](spell.dominate_person)
 
 #### Благословение обманщика
 \feature 1
