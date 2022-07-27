@@ -75,6 +75,6 @@
 ## Происхождение чародея
 На 1-м уровне чародей получает умение «Происхождение чародея». В дополнение к тем, что описаны в «Книге игрока», вам доступны следующие варианты: божественная душа, теневая магия и штормовое колдовство.
 
-\file sorcerer/Storm_Sorcery.md
+\file sorcerer/Divine_Soul.md
 \file sorcerer/Shadow.md
-\file sorcerer/Storm_Sorcery.md
+\file sorcerer/Storm.md
