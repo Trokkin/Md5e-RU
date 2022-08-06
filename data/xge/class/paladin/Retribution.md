@@ -40,7 +40,7 @@
 5 | [удержание личности](hold_person), [умиротворение](calm_emotions)
 9 | [гипнотический узор](hypnotic_pattern), [контрзаклинание](counterspell)
 13 | [каменная кожа](stoneskin), [Отилюков упругий шар](Otilukes_resilient_sphere)
-17 | [силовая стена] [wall of force], [удержание чудовища] [hold monster]
+17 | [силовая стена](wall_of_force), [удержание чудовища](hold_monster)
 
 #### Божественный канал
 \feature 3
