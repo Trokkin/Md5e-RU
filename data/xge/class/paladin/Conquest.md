@@ -40,11 +40,11 @@
 \table.caption Заклинания клятвы покорения
 Уровень паладина | Заклинания
 --- | ---
-3 | [доспех Агатиса](armor_of_Agathys), [приказ](command)
-5 | [божественное оружие](spiritual_weapon), [удержание личности](hold_person)
-9 | [проклятие](bestow_curse), [ужас](fear)
-13 | [каменная кожа](stoneskin), [подчинение зверя](dominate_beast)
-17 | [облако смерти](cloudkill), [подчинение личности](dominate_person)
+3 | [доспех Агатиса](spell.armor_of_Agathys), [приказ](spell.command)
+5 | [божественное оружие](spell.spiritual_weapon), [удержание личности](spell.hold_person)
+9 | [проклятие](spell.bestow_curse), [ужас](spell.fear)
+13 | [каменная кожа](spell.stoneskin), [подчинение зверя](spell.dominate_beast)
+17 | [облако смерти](spell.cloudkill), [подчинение личности](spell.dominate_person)
 
 #### Божественный канал
 \feature 3
