@@ -38,11 +38,11 @@
 \table.caption Заклинания клятвы искупления
 Уровень паладина | Заклинания
 --- | ---
-3 | [убежище](sanctuary), [усыпление](sleep)
-5 | [удержание личности](hold_person), [умиротворение](calm_emotions)
-9 | [гипнотический узор](hypnotic_pattern), [контрзаклинание](counterspell)
-13 | [каменная кожа](stoneskin), [Отилюков упругий шар](Otilukes_resilient_sphere)
-17 | [силовая стена](wall_of_force), [удержание чудовища](hold_monster)
+3 | [убежище](spell.sanctuary), [усыпление](spell.sleep)
+5 | [удержание личности](spell.hold_person), [умиротворение](spell.calm_emotions)
+9 | [гипнотический узор](spell.hypnotic_pattern), [контрзаклинание](spell.counterspell)
+13 | [каменная кожа](spell.stoneskin), [Отилюков упругий шар](spell.Otilukes_resilient_sphere)
+17 | [силовая стена](spell.wall_of_force), [удержание чудовища](spell.hold_monster)
 
 #### Божественный канал
 \feature 3
