@@ -22,7 +22,7 @@
 --- | ---
 1 | [волна грома](spell.thunderwave), [сотворение или уничтожение воды](spell.create_or_destroy_water)
 2 | [порыв ветра](spell.gust_of_wind), [тишина](spell.silence)
-3 | [метель](spell.sleet storm), [молния](spell.lightning_bolt)
+3 | [метель](spell.sleet_storm), [молния](spell.lightning_bolt)
 4 | [власть над водами](spell.control_water), [призыв духа элементаля](spell.summon_elemental) (только вода; заклинание в главе 3)
 5 | [длань Бигби](spell.Bigbys_hand) (выглядит как щупальце), [конус холода](spell.cone_of_cold)
 
