@@ -22,9 +22,9 @@
 \table.caption Заклинания круга спор
 Уровень друида | Заклинания
 ---|---
-2 | [леденящее прикосновение](spell.chill touch)
+2 | [леденящее прикосновение](spell.chill_touch)
 3 | [глухота/слепота](spell.blindness/deafness), [нетленные останки](spell.gentle_repose)
-5 | [восставший труп](spell.animate:dead), [газообразная форма](spell.gaseous_form)
+5 | [восставший труп](spell.animate_dead), [газообразная форма](spell.gaseous_form)
 7 | [смятение](spell.confusion), [усыхание](spell.blight)
 9 | [заражение](spell.contagio)], [облако смерти](spell.cloud_kill)
 #### Ореол спор
