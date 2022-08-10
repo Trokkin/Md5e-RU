@@ -23,11 +23,11 @@
 \table.caption Дополнительные заклинания ведьмовского клинка
 Уровень заклинания | Заклинания
 ---|---
-1 | [гневная кара](spell.wrathful_smite), [щит](spell.shield)
-2 | [клеймящая кара](spell.branding_smite), [размытый образ](spell.blur)
-3 | [мерцание](spell.blink), [стихийное оружие](spell.elemental_weapon)
-4 | [воображаемый убийца](spell.phantasmal_killer), [оглушающая кара](spell.staggering_smite)
-5 | [изгоняющая кара](spell.banishing_smite), [конус холода](spell.cone_of_cold)
+1 | [нанесение ран](spell.inflict_wounds), [порча](spell.bane)
+2 | [воображаемая сила](spell.phantasmal_force), [размытый образ](spell.blur)
+3 | [мерцание](spell.blink), [проклятие](spell.bestow_curse)
+4 | [воображаемый убийца](spell.phantasmal_killer), [высшая невидимость](spell.greater_invisibility)
+5 | [конус холода](spell.cone_of_cold), [притворство](spell.seeming)
 
 #### Проклятие ведьмовского клинка
 \feature 1
